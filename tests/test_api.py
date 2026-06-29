@@ -4,6 +4,11 @@ from unittest.mock import AsyncMock, patch, MagicMock
 
 # Import app
 from app.main import app
+from app.auth import get_current_user
+from app.rate_limiter import rate_limit
+
+app.dependency_overrides[get_current_user] = lambda: {"email": "admin@mediflow.ai", "role": "Admin"}
+app.dependency_overrides[rate_limit] = lambda: None
 
 client = TestClient(app)
 
@@ -15,8 +20,6 @@ def test_health_check():
 
 @patch("app.routers.dashboard.get_database")
 def test_dashboard_live_empty(mock_get_db):
-    """Verify dashboard/live behaves correctly when database is empty."""
-    # Mock MongoDB find_one returning None
     mock_db = MagicMock()
     mock_collection = MagicMock()
     
