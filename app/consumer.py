@@ -19,15 +19,8 @@ from app.websocket_manager import manager
 
 # Environment Variables
 KAFKA_BOOTSTRAP = os.getenv("KAFKA_BOOTSTRAP", "localhost:9092")
-TOPIC_ADMISSION = os.getenv("TOPIC_ADMISSION", "hospital.patient.admission")
-TOPIC_DISCHARGE = os.getenv("TOPIC_DISCHARGE", "hospital.patient.discharge")
-TOPIC_ICU = os.getenv("TOPIC_ICU", "hospital.resource.icu")
-TOPIC_STAFF = os.getenv("TOPIC_STAFF", "hospital.staff.status")
-TOPIC_AMBULANCE = os.getenv("TOPIC_AMBULANCE", "hospital.ambulance.request")
-TOPIC_OXYGEN = os.getenv("TOPIC_OXYGEN", "hospital.resource.oxygen")
-TOPIC_PREDICTION = os.getenv("TOPIC_PREDICTION", "hospital.prediction.events")
-TOPIC_AUDIT = os.getenv("TOPIC_AUDIT", "hospital.audit.logs")
-
+TOPIC_PATIENT_FLOW = os.getenv("TOPIC_PATIENT_FLOW", "patient-flow")
+TOPIC_ICU_STATUS = os.getenv("TOPIC_ICU_STATUS", "icu-status")
 OVERLOAD_THRESHOLD = int(os.getenv("OVERLOAD_THRESHOLD", "15"))
 DEFAULT_DATASET_CANDIDATES = [
     os.getenv("MOCK_DATASET_PATH", ""),
@@ -52,13 +45,6 @@ def get_mock_dataset_path() -> str:
             return path
     return os.path.join("datasets", "Hospital ER_Data.csv")
 
-def get_shift(hour: int) -> int:
-    if 6 <= hour < 14:
-        return 0
-    if 14 <= hour < 22:
-        return 1
-    return 2
-
 async def handle_patient_flow(event: dict):
     """Processes patient flow event, runs inference, saves to DB, and checks overload alerts."""
     try:
@@ -73,28 +59,15 @@ async def handle_patient_flow(event: dict):
         event["parsed_timestamp"] = event_time
         
         # 1. Insert patient event
+        # Strip MongoDB _id if present from previous operations
         event.pop("_id", None)
         await db[COLLECTION_PATIENT_EVENTS].insert_one(event.copy())
         
-        # 2. Get prediction
+        # 2. Get prediction (stub in Phase 4, real in Phase 2)
         prediction = predict_admission(event)
         prediction["parsed_timestamp"] = event_time
         prediction.pop("_id", None)
         await db[COLLECTION_PREDICTIONS].insert_one(prediction.copy())
-        
-        # Log to prediction_events
-        try:
-            pred_log = {
-                "timestamp": event["timestamp"],
-                "patient_id": event.get("patient_id"),
-                "predicted_admission": prediction.get("predicted_admission"),
-                "admission_proba": prediction.get("admission_proba"),
-                "model_loaded": prediction.get("model_loaded", False),
-                "parsed_timestamp": event_time
-            }
-            await db["prediction_events"].insert_one(pred_log)
-        except Exception as e:
-            print(f"Error logging prediction event: {e}")
         
         # 3. Calculate rolling count of admitted patients in last hour
         one_hour_ago = event_time - timedelta(hours=1)
@@ -129,25 +102,11 @@ async def handle_patient_flow(event: dict):
     except Exception as e:
         print(f"Error handling patient event: {e}")
 
-async def handle_discharge(event: dict):
-    try:
-        db = get_database()
-        try:
-            event_time = parse_event_time(event["timestamp"])
-        except KeyError:
-            event_time = datetime.now()
-            event["timestamp"] = event_time.strftime("%d-%m-%Y %H:%M")
-        event["parsed_timestamp"] = event_time
-        event.pop("_id", None)
-        await db["discharge_events"].insert_one(event)
-        print(f"Processed discharge event: Patient={event.get('patient_id')} discharged from {event.get('department')}")
-    except Exception as e:
-        print(f"Error handling discharge event: {e}")
-
 async def handle_icu_snapshot(snapshot: dict):
     """Processes and logs ICU snapshots."""
     try:
         db = get_database()
+        
         try:
             event_time = parse_event_time(snapshot["timestamp"])
         except KeyError:
@@ -160,79 +119,6 @@ async def handle_icu_snapshot(snapshot: dict):
         print(f"Processed ICU snapshot: Beds available={snapshot.get('icu_beds_available')}")
     except Exception as e:
         print(f"Error handling ICU snapshot: {e}")
-
-async def handle_staff_status(event: dict):
-    try:
-        db = get_database()
-        try:
-            event_time = parse_event_time(event["timestamp"])
-        except KeyError:
-            event_time = datetime.now()
-            event["timestamp"] = event_time.strftime("%d-%m-%Y %H:%M")
-        event["parsed_timestamp"] = event_time
-        event.pop("_id", None)
-        await db["staff_status"].insert_one(event)
-        print(f"Processed Staff Status: Shift={event.get('shift')} | Doctors={event.get('doctor_availability')} | Nurses={event.get('nurse_availability')}")
-    except Exception as e:
-        print(f"Error handling staff status event: {e}")
-
-async def handle_ambulance_request(event: dict):
-    try:
-        db = get_database()
-        try:
-            event_time = parse_event_time(event["timestamp"])
-        except KeyError:
-            event_time = datetime.now()
-            event["timestamp"] = event_time.strftime("%d-%m-%Y %H:%M")
-        event["parsed_timestamp"] = event_time
-        event.pop("_id", None)
-        await db["ambulance_requests"].insert_one(event)
-        print(f"Processed Ambulance Request: Count={event.get('ambulance_requests')}")
-    except Exception as e:
-        print(f"Error handling ambulance request event: {e}")
-
-async def handle_oxygen_utilization(event: dict):
-    try:
-        db = get_database()
-        try:
-            event_time = parse_event_time(event["timestamp"])
-        except KeyError:
-            event_time = datetime.now()
-            event["timestamp"] = event_time.strftime("%d-%m-%Y %H:%M")
-        event["parsed_timestamp"] = event_time
-        event.pop("_id", None)
-        await db["oxygen_utilization"].insert_one(event)
-        print(f"Processed Oxygen Utilization: {event.get('oxygen_utilization')}%")
-    except Exception as e:
-        print(f"Error handling oxygen utilization event: {e}")
-
-async def handle_prediction_event(event: dict):
-    try:
-        db = get_database()
-        try:
-            event_time = parse_event_time(event["timestamp"])
-        except KeyError:
-            event_time = datetime.now()
-            event["timestamp"] = event_time.strftime("%d-%m-%Y %H:%M")
-        event["parsed_timestamp"] = event_time
-        event.pop("_id", None)
-        await db["prediction_events"].insert_one(event)
-    except Exception as e:
-        print(f"Error handling prediction event: {e}")
-
-async def handle_audit_log(event: dict):
-    try:
-        db = get_database()
-        try:
-            event_time = parse_event_time(event["timestamp"])
-        except KeyError:
-            event_time = datetime.now()
-            event["timestamp"] = event_time.strftime("%d-%m-%Y %H:%M")
-        event["parsed_timestamp"] = event_time
-        event.pop("_id", None)
-        await db["audit_logs"].insert_one(event)
-    except Exception as e:
-        print(f"Error handling audit log event: {e}")
 
 def run_mock_ingestion_sync(loop: asyncio.AbstractEventLoop):
     """Fallback generator running inside consumer thread when Kafka is not available.
@@ -254,6 +140,7 @@ def run_mock_ingestion_sync(loop: asyncio.AbstractEventLoop):
         print(f"[Mock Consumer] Error reading CSV: {e}")
         return
         
+    # Standardize either the bundled Kaggle ER schema or the richer synthetic live schema.
     df = df.rename(columns={
         "Patient Id": "patient_id",
         "Patient Admission Date": "timestamp",
@@ -274,6 +161,7 @@ def run_mock_ingestion_sync(loop: asyncio.AbstractEventLoop):
     df["department"] = df["department"].fillna("Self-Referral")
     df["satisfaction_score"] = df["satisfaction_score"].fillna(3.0)
     
+    # Sort chronologically
     df["parsed_time"] = pd.to_datetime(df["timestamp"], errors="coerce")
     df = df.dropna(subset=["parsed_time"])
     df = df.sort_values(by="parsed_time").reset_index(drop=True)
@@ -303,12 +191,8 @@ def run_mock_ingestion_sync(loop: asyncio.AbstractEventLoop):
 
     print("[Mock Consumer] Starting mock streaming loop. Press Ctrl+C in server to stop.")
     last_icu_time = 0
-    last_staff_time = 0
-    last_ambulance_time = 0
-    last_oxygen_time = 0
     
-    discharges = []
-    
+    # Loop infinitely to keep the simulation alive
     while True:
         for idx, row in df.iterrows():
             event_time = parse_event_time(row["timestamp"])
@@ -316,6 +200,7 @@ def run_mock_ingestion_sync(loop: asyncio.AbstractEventLoop):
             seed = get_deterministic_seed(ts_str)
             fake.seed_instance(seed)
             
+            # Generate seeded simulated fields
             icu_beds_available = int(row.get("icu_beds_available", fake.random_int(min=0, max=50)))
             general_beds_available = int(row.get("general_beds_available", fake.random_int(min=40, max=240)))
             ambulance_requests = int(row.get("ambulance_requests", fake.random_int(min=0, max=10)))
@@ -325,6 +210,7 @@ def run_mock_ingestion_sync(loop: asyncio.AbstractEventLoop):
             ventilator_availability = int(row.get("ventilator_availability", fake.random_int(min=0, max=18)))
             severity_level = int(row.get("emergency_severity_level", derive_severity_level(row["wait_time"], row["department"])))
             
+            # Calculate admitted using the identical Clinical Triage Rules
             score = 0
             if severity_level == 1:
                 score += 0.8
@@ -379,25 +265,11 @@ def run_mock_ingestion_sync(loop: asyncio.AbstractEventLoop):
                 "triage_level": row.get("triage_level", "Unspecified")
             }
             
+            # Dispatch to async handler
             asyncio.run_coroutine_threadsafe(handle_patient_flow(event), loop)
             
-            if admitted_flag:
-                discharge_delay = fake.random_int(min=5, max=15)
-                discharge_time = time.time() + discharge_delay
-                discharge_event = {
-                    "patient_id": row["patient_id"],
-                    "timestamp": (event_time + timedelta(minutes=discharge_delay*10)).strftime("%d-%m-%Y %H:%M"),
-                    "department": row["department"],
-                    "discharge_reason": fake.random_element(elements=("Recovered", "Transferred", "Self-Discharge", "Referred"))
-                }
-                discharges.append((discharge_time, discharge_event))
-            
+            # Dispatch ICU status every 30 iterations
             current_time = time.time()
-            for d_time, d_event in list(discharges):
-                if current_time >= d_time:
-                    asyncio.run_coroutine_threadsafe(handle_discharge(d_event), loop)
-                    discharges.remove((d_time, d_event))
-            
             if (current_time - last_icu_time) >= 30:
                 icu_event = {
                     "timestamp": ts_str,
@@ -410,32 +282,6 @@ def run_mock_ingestion_sync(loop: asyncio.AbstractEventLoop):
                 asyncio.run_coroutine_threadsafe(handle_icu_snapshot(icu_event), loop)
                 last_icu_time = current_time
                 
-            if (current_time - last_staff_time) >= 15:
-                staff_event = {
-                    "timestamp": ts_str,
-                    "shift": get_shift(event_time.hour),
-                    "doctor_availability": doctor_availability,
-                    "nurse_availability": nurse_availability
-                }
-                asyncio.run_coroutine_threadsafe(handle_staff_status(staff_event), loop)
-                last_staff_time = current_time
-                
-            if (current_time - last_ambulance_time) >= 20:
-                amb_event = {
-                    "timestamp": ts_str,
-                    "ambulance_requests": ambulance_requests
-                }
-                asyncio.run_coroutine_threadsafe(handle_ambulance_request(amb_event), loop)
-                last_ambulance_time = current_time
-                
-            if (current_time - last_oxygen_time) >= 25:
-                oxy_event = {
-                    "timestamp": ts_str,
-                    "oxygen_utilization": oxygen_utilization
-                }
-                asyncio.run_coroutine_threadsafe(handle_oxygen_utilization(oxy_event), loop)
-                last_oxygen_time = current_time
-                
             time.sleep(1)
 
 def run_consumer_thread(loop: asyncio.AbstractEventLoop):
@@ -444,14 +290,8 @@ def run_consumer_thread(loop: asyncio.AbstractEventLoop):
         print(f"Connecting background consumer to Kafka on {KAFKA_BOOTSTRAP}...")
         try:
             consumer = KafkaConsumer(
-                TOPIC_ADMISSION,
-                TOPIC_DISCHARGE,
-                TOPIC_ICU,
-                TOPIC_STAFF,
-                TOPIC_AMBULANCE,
-                TOPIC_OXYGEN,
-                TOPIC_PREDICTION,
-                TOPIC_AUDIT,
+                TOPIC_PATIENT_FLOW,
+                TOPIC_ICU_STATUS,
                 bootstrap_servers=KAFKA_BOOTSTRAP,
                 auto_offset_reset="latest",
                 value_deserializer=lambda m: json.loads(m.decode("utf-8")),
@@ -462,25 +302,14 @@ def run_consumer_thread(loop: asyncio.AbstractEventLoop):
             
             while True:
                 try:
+                    # Fetch batch of messages
                     message_batch = consumer.poll(timeout_ms=1000)
                     for partition, messages in message_batch.items():
                         for msg in messages:
-                            if msg.topic == TOPIC_ADMISSION:
+                            if msg.topic == TOPIC_PATIENT_FLOW:
                                 asyncio.run_coroutine_threadsafe(handle_patient_flow(msg.value), loop)
-                            elif msg.topic == TOPIC_DISCHARGE:
-                                asyncio.run_coroutine_threadsafe(handle_discharge(msg.value), loop)
-                            elif msg.topic == TOPIC_ICU:
+                            elif msg.topic == TOPIC_ICU_STATUS:
                                 asyncio.run_coroutine_threadsafe(handle_icu_snapshot(msg.value), loop)
-                            elif msg.topic == TOPIC_STAFF:
-                                asyncio.run_coroutine_threadsafe(handle_staff_status(msg.value), loop)
-                            elif msg.topic == TOPIC_AMBULANCE:
-                                asyncio.run_coroutine_threadsafe(handle_ambulance_request(msg.value), loop)
-                            elif msg.topic == TOPIC_OXYGEN:
-                                asyncio.run_coroutine_threadsafe(handle_oxygen_utilization(msg.value), loop)
-                            elif msg.topic == TOPIC_PREDICTION:
-                                asyncio.run_coroutine_threadsafe(handle_prediction_event(msg.value), loop)
-                            elif msg.topic == TOPIC_AUDIT:
-                                asyncio.run_coroutine_threadsafe(handle_audit_log(msg.value), loop)
                 except Exception as e:
                     print(f"Error in Kafka consumer poll iteration: {e}")
                     break  # Break out to trigger reconnect

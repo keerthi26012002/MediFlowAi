@@ -2,9 +2,6 @@ from fastapi import APIRouter, Depends, HTTPException
 from datetime import datetime, timedelta
 from app.db import get_database, COLLECTION_PATIENT_EVENTS, COLLECTION_ICU_SNAPSHOTS, COLLECTION_ALERTS
 from app.schemas import LiveDashboardResponse, OperationalSnapshotResponse
-from app.auth import get_current_user
-from app.rate_limiter import rate_limit
-from app.cache import get_cached, set_cached
 
 router = APIRouter(prefix="/dashboard", tags=["dashboard"])
 
@@ -24,14 +21,9 @@ def _as_int(value, default=0):
     except (TypeError, ValueError):
         return default
 
-@router.get("/live", response_model=LiveDashboardResponse, dependencies=[Depends(rate_limit)])
-async def get_live_metrics(current_user: dict = Depends(get_current_user)):
+@router.get("/live", response_model=LiveDashboardResponse)
+async def get_live_metrics():
     """Calculates live metrics for the last 60 minutes based on the latest event timestamp."""
-    # Check cache first
-    cached_val = get_cached("dashboard:live")
-    if cached_val:
-        return LiveDashboardResponse(**cached_val)
-
     db = get_database()
     
     # Get the latest patient event to establish the simulation "current time"
@@ -39,7 +31,7 @@ async def get_live_metrics(current_user: dict = Depends(get_current_user)):
     
     if not latest_event:
         # If DB is empty, return default placeholders
-        res = LiveDashboardResponse(
+        return LiveDashboardResponse(
             timestamp=datetime.now().strftime("%d-%m-%Y %H:%M"),
             patients_per_hour=0,
             icu_beds_free=0,
@@ -47,8 +39,6 @@ async def get_live_metrics(current_user: dict = Depends(get_current_user)):
             active_alerts_count=0,
             overload_status=False
         )
-        set_cached("dashboard:live", res.model_dump(), ttl_seconds=5)
-        return res
         
     now_sim = latest_event["parsed_timestamp"]
     one_hour_ago = now_sim - timedelta(minutes=60)
@@ -76,7 +66,7 @@ async def get_live_metrics(current_user: dict = Depends(get_current_user)):
         "parsed_timestamp": {"$gte": one_hour_ago, "$lte": now_sim}
     })
     
-    res = LiveDashboardResponse(
+    return LiveDashboardResponse(
         timestamp=now_sim.strftime("%d-%m-%Y %H:%M"),
         patients_per_hour=patients_count,
         icu_beds_free=icu_free,
@@ -84,11 +74,9 @@ async def get_live_metrics(current_user: dict = Depends(get_current_user)):
         active_alerts_count=alerts_count,
         overload_status=alerts_count > 0
     )
-    set_cached("dashboard:live", res.model_dump(), ttl_seconds=5)
-    return res
 
-@router.get("/operations", response_model=OperationalSnapshotResponse, dependencies=[Depends(rate_limit)])
-async def get_operational_snapshot(current_user: dict = Depends(get_current_user)):
+@router.get("/operations", response_model=OperationalSnapshotResponse)
+async def get_operational_snapshot():
     """Returns a control-tower view of the hospital event pipeline and live capacity posture."""
     db = get_database()
 

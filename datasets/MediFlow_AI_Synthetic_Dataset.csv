@@ -2499,3 +2499,503 @@ P002497,2026-01-27 13:06:00,1,Male,Cardiology,Transfer,Semi-Urgent,47,2,1,23,132
 P002498,2026-01-23 11:01:00,70,Female,General Medicine,Ambulance,Semi-Urgent,41,3,1,0,198,30,75,12,100.0,7,High,100.0,88.52,81.64,Critical,11,Friday,0
 P002499,2026-02-01 22:10:00,66,Male,General Medicine,Walk-in,Semi-Urgent,24,3,0,13,128,32,77,7,71.08,6,Medium,100.0,59.85,70.74,Warning,22,Sunday,1
 P002500,2026-02-07 02:17:00,30,Male,General Medicine,Ambulance,Non-Urgent,31,4,0,36,167,19,83,3,67.09,8,Low,63.93,36.29,44.48,Normal,2,Saturday,1
+P002501,2026-02-11 03:43:00,66,Male,General Medicine,Walk-in,Semi-Urgent,6,3,1,43,170,26,75,2,54.23,5,Low,49.55,21.88,32.1,Normal,3,Wednesday,0
+P002502,2026-01-26 04:23:00,34,Male,Pediatrics,Walk-in,Urgent,39,2,0,26,90,15,53,1,50.46,9,Low,80.51,28.3,49.4,Normal,4,Monday,0
+P002503,2026-02-05 16:25:00,15,Male,ICU,Walk-in,Semi-Urgent,24,2,1,29,139,32,71,0,53.64,17,Low,63.47,21.09,38.48,Normal,16,Thursday,0
+P002504,2026-01-15 07:42:00,27,Male,Cardiology,Walk-in,Semi-Urgent,24,2,0,25,97,30,40,4,71.43,1,Medium,96.23,38.34,60.76,Warning,7,Thursday,0
+P002505,2026-02-05 05:40:00,91,Male,Orthopedics,Walk-in,Urgent,50,2,0,17,195,23,76,2,64.51,11,Low,66.68,38.53,46.65,Normal,5,Thursday,0
+P002506,2026-01-21 22:17:00,32,Female,Emergency,Walk-in,Semi-Urgent,50,3,1,30,57,12,68,5,100.0,9,Medium,100.0,69.0,74.22,Warning,22,Wednesday,0
+P002507,2026-02-07 14:00:00,62,Male,Emergency,Transfer,Non-Urgent,30,4,0,22,97,45,8,4,60.57,7,Medium,93.6,37.54,59.19,Warning,14,Saturday,1
+P002508,2026-01-28 06:06:00,10,Female,Emergency,Walk-in,Non-Urgent,43,4,0,21,152,15,37,2,47.1,19,Low,67.88,31.94,44.72,Normal,6,Wednesday,0
+P002509,2026-02-09 05:13:00,23,Female,ICU,Transfer,Critical,31,1,0,0,155,17,62,5,84.1,5,Medium,100.0,46.95,65.84,Warning,5,Monday,0
+P002510,2026-01-28 23:40:00,30,Male,Emergency,Ambulance,Non-Urgent,37,4,0,37,149,29,53,7,96.63,13,Medium,91.51,70.4,70.68,Warning,23,Wednesday,0
+P002511,2026-01-16 06:44:00,10,Female,Emergency,Walk-in,Semi-Urgent,11,3,0,24,175,20,69,1,69.5,15,Low,66.77,24.09,41.2,Normal,6,Friday,0
+P002512,2026-02-01 12:33:00,62,Male,Emergency,Ambulance,Critical,37,1,1,18,89,18,37,9,100.0,10,High,100.0,77.64,77.5,Critical,12,Sunday,1
+P002513,2026-02-08 00:57:00,47,Male,Cardiology,Transfer,Non-Urgent,20,3,0,29,143,27,62,5,87.39,0,Medium,90.04,44.25,60.03,Warning,0,Sunday,1
+P002514,2026-01-16 08:46:00,21,Female,ICU,Ambulance,Urgent,32,2,0,8,139,31,62,3,58.06,9,Medium,88.71,34.36,55.64,Warning,8,Friday,0
+P002515,2026-01-27 07:58:00,60,Male,ICU,Walk-in,Semi-Urgent,47,2,1,18,131,12,91,1,49.88,16,Low,74.77,30.71,47.56,Normal,7,Tuesday,0
+P002516,2026-02-04 06:15:00,49,Male,Pediatrics,Walk-in,Urgent,13,2,1,23,223,28,58,1,78.06,14,Low,57.94,26.88,38.03,Normal,6,Wednesday,0
+P002517,2026-01-30 12:08:00,49,Female,Emergency,Transfer,Semi-Urgent,56,3,0,9,115,21,58,2,73.36,7,Medium,99.06,54.66,68.32,Warning,12,Friday,0
+P002518,2026-02-09 19:10:00,41,Female,General Medicine,Walk-in,Non-Urgent,39,4,1,1,10,22,64,6,82.48,11,Medium,100.0,64.3,72.43,Warning,19,Monday,0
+P002519,2026-01-15 14:59:00,6,Male,General Medicine,Ambulance,Urgent,2,2,0,26,84,28,35,0,68.97,12,Low,88.02,17.88,49.04,Normal,14,Thursday,0
+P002520,2026-01-20 16:00:00,5,Male,Emergency,Transfer,Non-Urgent,16,4,0,49,125,23,62,3,91.93,17,Low,77.12,37.7,51.34,Normal,16,Tuesday,0
+P002521,2026-01-20 16:09:00,61,Female,General Medicine,Walk-in,Semi-Urgent,18,3,0,3,193,34,61,0,60.38,15,Low,70.88,20.86,41.95,Normal,16,Tuesday,0
+P002522,2026-01-15 07:17:00,13,Male,Orthopedics,Transfer,Urgent,40,2,1,5,153,17,56,5,67.09,6,Medium,96.1,45.57,63.44,Warning,7,Thursday,0
+P002523,2026-01-15 00:34:00,95,Female,Emergency,Ambulance,Urgent,40,2,1,29,121,26,48,10,89.9,0,Medium,100.0,67.28,73.57,Warning,0,Thursday,0
+P002524,2026-01-18 17:26:00,27,Male,Cardiology,Walk-in,Urgent,17,2,1,0,70,28,71,3,56.48,8,Medium,100.0,29.16,59.08,Warning,17,Sunday,1
+P002525,2026-01-27 13:43:00,73,Male,General Medicine,Walk-in,Urgent,25,2,1,0,125,39,32,5,90.82,3,Medium,100.0,58.7,70.31,Warning,13,Tuesday,0
+P002526,2026-02-08 06:48:00,31,Male,ICU,Walk-in,Urgent,25,2,0,30,118,26,37,1,44.45,8,Low,66.96,22.31,40.62,Normal,6,Sunday,1
+P002527,2026-01-27 03:13:00,48,Male,ICU,Walk-in,Semi-Urgent,2,2,0,14,117,35,39,2,65.09,5,Low,91.03,23.31,52.55,Normal,3,Tuesday,0
+P002528,2026-01-26 05:22:00,84,Female,Cardiology,Transfer,Non-Urgent,26,3,0,32,72,20,55,2,54.75,5,Low,85.48,28.41,51.83,Normal,5,Monday,0
+P002529,2026-02-02 18:53:00,67,Male,Emergency,Walk-in,Critical,28,1,1,0,110,24,47,10,98.09,2,High,100.0,77.48,77.44,Critical,18,Monday,0
+P002530,2026-02-08 17:26:00,67,Male,General Medicine,Walk-in,Non-Urgent,2,4,0,12,137,5,64,0,61.4,13,Medium,80.27,15.99,59.61,Warning,17,Sunday,1
+P002531,2026-01-22 09:29:00,11,Female,General Medicine,Walk-in,Semi-Urgent,53,3,1,29,91,23,54,5,94.09,11,Medium,100.0,68.48,74.02,Warning,9,Thursday,0
+P002532,2026-02-06 02:52:00,34,Male,Pediatrics,Walk-in,Semi-Urgent,31,3,0,11,234,22,34,4,78.81,18,Low,71.69,42.42,50.53,Normal,2,Friday,0
+P002533,2026-02-08 16:13:00,85,Female,Cardiology,Transfer,Non-Urgent,24,3,1,33,94,22,32,2,68.41,13,Low,84.71,31.18,52.51,Normal,16,Sunday,1
+P002534,2026-01-26 13:36:00,31,Female,ICU,Walk-in,Semi-Urgent,16,2,0,11,153,11,73,4,77.92,10,Medium,93.97,49.4,63.88,Warning,13,Monday,0
+P002535,2026-02-06 04:43:00,47,Male,Neurology,Ambulance,Semi-Urgent,13,3,0,22,144,22,61,3,65.87,12,Low,80.32,30.23,50.04,Normal,4,Friday,0
+P002536,2026-01-27 20:36:00,18,Female,Pediatrics,Walk-in,Non-Urgent,56,4,1,5,163,31,42,7,90.85,8,High,100.0,75.03,76.51,Critical,20,Tuesday,0
+P002537,2026-01-29 16:37:00,37,Female,Orthopedics,Ambulance,Critical,27,1,1,19,100,14,84,8,91.02,10,Medium,100.0,57.0,69.66,Warning,16,Thursday,0
+P002538,2026-01-30 08:00:00,53,Female,Emergency,Ambulance,Urgent,34,2,1,31,196,26,68,7,89.93,18,Medium,79.84,55.76,59.51,Warning,8,Friday,0
+P002539,2026-02-03 02:29:00,42,Female,Emergency,Walk-in,Non-Urgent,18,4,0,45,139,14,15,3,59.25,3,Low,61.49,30.17,40.98,Normal,2,Tuesday,0
+P002540,2026-01-30 07:31:00,51,Male,Cardiology,Walk-in,Urgent,3,2,0,31,145,17,80,1,59.08,5,Low,65.24,18.93,38.51,Normal,7,Friday,0
+P002541,2026-01-29 20:48:00,44,Female,Orthopedics,Walk-in,Non-Urgent,48,4,1,14,72,34,48,7,81.4,2,Medium,100.0,70.11,74.64,Warning,20,Thursday,0
+P002542,2026-02-11 11:20:00,40,Female,Pediatrics,Transfer,Semi-Urgent,41,3,0,1,140,18,57,3,62.54,12,Medium,95.69,50.36,65.07,Warning,11,Wednesday,0
+P002543,2026-01-21 18:22:00,39,Male,Neurology,Walk-in,Non-Urgent,68,4,0,17,114,26,73,3,69.0,9,Medium,93.88,60.61,68.09,Warning,18,Wednesday,0
+P002544,2026-01-18 17:06:00,34,Male,General Medicine,Ambulance,Non-Urgent,28,4,0,16,203,11,68,2,83.42,14,Low,73.7,36.22,49.14,Normal,17,Sunday,1
+P002545,2026-02-02 20:30:00,32,Female,Neurology,Transfer,Semi-Urgent,55,3,0,10,124,21,39,3,95.97,14,Medium,100.0,63.19,72.01,Warning,20,Monday,0
+P002546,2026-02-02 11:21:00,41,Male,ICU,Walk-in,Non-Urgent,50,3,0,24,115,12,49,3,71.2,21,Medium,89.34,55.4,63.94,Warning,11,Monday,0
+P002547,2026-02-02 10:55:00,81,Male,ICU,Walk-in,Semi-Urgent,9,2,0,33,54,14,60,1,65.07,13,Medium,91.91,34.35,57.17,Warning,10,Monday,0
+P002548,2026-02-03 19:50:00,54,Female,Cardiology,Walk-in,Urgent,48,2,0,33,53,23,71,1,90.84,8,Medium,100.0,53.27,68.24,Warning,19,Tuesday,0
+P002549,2026-01-27 19:50:00,78,Female,Cardiology,Walk-in,Non-Urgent,75,3,1,20,85,19,62,5,100.0,0,High,100.0,77.0,77.26,Critical,19,Tuesday,0
+P002550,2026-01-22 22:43:00,37,Female,Orthopedics,Transfer,Critical,33,1,0,29,122,18,71,3,74.0,2,Medium,84.89,50.66,60.0,Warning,22,Thursday,0
+P002551,2026-01-29 04:31:00,6,Female,Cardiology,Walk-in,Urgent,18,2,0,23,139,20,47,0,67.46,9,Low,74.19,22.62,44.21,Normal,4,Thursday,0
+P002552,2026-01-29 12:12:00,47,Male,Pediatrics,Walk-in,Non-Urgent,22,4,0,11,134,26,24,2,67.07,9,Medium,89.41,42.21,58.96,Warning,12,Thursday,0
+P002553,2026-01-29 04:23:00,31,Male,Pediatrics,Ambulance,Semi-Urgent,40,3,0,18,85,26,80,6,71.99,7,Medium,100.0,50.0,67.0,Warning,4,Thursday,0
+P002554,2026-01-26 11:45:00,78,Female,Emergency,Ambulance,Urgent,53,2,1,14,164,22,39,5,66.36,1,Medium,85.94,61.55,64.64,Warning,11,Monday,0
+P002555,2026-02-09 05:55:00,34,Female,Pediatrics,Ambulance,Semi-Urgent,24,3,0,36,257,18,80,2,63.1,6,Low,34.43,29.86,27.87,Normal,5,Monday,0
+P002556,2026-02-03 15:47:00,68,Male,Neurology,Walk-in,Urgent,35,2,1,3,191,20,69,4,81.21,11,Medium,90.81,44.3,60.42,Warning,15,Tuesday,0
+P002557,2026-02-06 07:20:00,28,Female,ICU,Walk-in,Urgent,15,2,0,49,98,23,31,2,59.04,6,Low,67.38,25.96,42.21,Normal,7,Friday,0
+P002558,2026-01-28 07:03:00,50,Male,ICU,Walk-in,Non-Urgent,2,3,0,20,197,38,54,1,84.72,15,Low,70.46,25.02,43.33,Normal,7,Wednesday,0
+P002559,2026-02-02 08:28:00,13,Female,Neurology,Walk-in,Semi-Urgent,33,3,0,16,53,17,48,3,68.95,15,Medium,100.0,37.4,62.21,Warning,8,Monday,0
+P002560,2026-02-06 15:58:00,15,Male,Orthopedics,Walk-in,Non-Urgent,2,4,0,21,94,32,21,0,48.57,12,Low,79.79,12.78,43.16,Normal,15,Friday,0
+P002561,2026-01-24 21:34:00,95,Female,Emergency,Walk-in,Semi-Urgent,52,3,1,7,134,9,48,5,72.8,1,High,100.0,62.84,86.88,Critical,21,Saturday,1
+P002562,2026-02-04 18:49:00,68,Male,General Medicine,Walk-in,Non-Urgent,44,4,0,15,69,28,48,6,85.59,11,Medium,100.0,66.68,73.34,Warning,18,Wednesday,0
+P002563,2026-01-26 17:22:00,24,Female,Neurology,Ambulance,Urgent,2,2,0,23,126,32,59,2,90.33,11,Medium,93.12,29.62,55.95,Warning,17,Monday,0
+P002564,2026-01-18 03:35:00,39,Female,Orthopedics,Transfer,Critical,13,1,0,18,132,27,87,1,59.32,16,Low,78.73,22.19,46.22,Normal,3,Sunday,1
+P002565,2026-01-25 15:58:00,53,Female,General Medicine,Walk-in,Urgent,50,2,1,24,148,33,60,3,81.52,4,Medium,84.74,45.98,58.15,Warning,15,Sunday,1
+P002566,2026-01-15 16:41:00,48,Male,ICU,Walk-in,Semi-Urgent,13,2,0,8,116,21,48,4,80.51,8,Medium,100.0,37.09,62.09,Warning,16,Thursday,0
+P002567,2026-01-15 11:20:00,33,Male,ICU,Ambulance,Non-Urgent,51,3,0,0,101,20,15,9,77.18,6,High,100.0,76.42,77.04,Critical,11,Thursday,0
+P002568,2026-02-10 16:21:00,56,Female,Emergency,Walk-in,Semi-Urgent,27,3,1,28,191,24,77,3,55.44,5,Low,57.97,32.1,40.02,Normal,16,Tuesday,0
+P002569,2026-01-31 20:56:00,35,Female,Emergency,Walk-in,Non-Urgent,46,4,1,17,118,14,22,7,86.06,13,Medium,100.0,70.64,74.84,Warning,20,Saturday,1
+P002570,2026-01-17 18:57:00,53,Male,ICU,Walk-in,Non-Urgent,48,3,1,34,135,13,52,4,65.93,14,Medium,76.37,56.64,58.18,Warning,18,Saturday,1
+P002571,2026-02-05 02:13:00,79,Male,ICU,Transfer,Non-Urgent,4,3,0,6,173,28,64,1,52.56,1,Low,73.21,17.62,41.84,Normal,2,Thursday,0
+P002572,2026-01-22 02:04:00,77,Female,Cardiology,Ambulance,Critical,42,1,0,12,130,28,34,6,93.17,9,Medium,100.0,55.93,69.25,Warning,2,Thursday,0
+P002573,2026-02-11 12:22:00,73,Male,Emergency,Ambulance,Non-Urgent,56,4,1,30,169,28,44,7,91.55,7,Medium,88.88,75.21,71.24,Warning,12,Wednesday,0
+P002574,2026-01-16 07:12:00,35,Male,ICU,Walk-in,Semi-Urgent,13,2,0,31,73,32,64,0,39.75,1,Low,74.2,14.1,40.97,Normal,7,Friday,0
+P002575,2026-02-04 04:59:00,40,Female,Cardiology,Walk-in,Semi-Urgent,28,2,0,21,146,34,70,2,61.89,3,Low,76.22,30.83,48.3,Normal,4,Wednesday,0
+P002576,2026-01-15 11:57:00,48,Female,ICU,Walk-in,Semi-Urgent,46,2,1,14,53,29,59,7,90.32,0,High,100.0,71.7,75.25,Critical,11,Thursday,0
+P002577,2026-01-26 19:44:00,38,Female,General Medicine,Transfer,Semi-Urgent,29,3,0,10,144,29,33,3,69.1,10,Medium,90.77,48.16,61.87,Warning,19,Monday,0
+P002578,2026-01-27 05:31:00,61,Female,General Medicine,Ambulance,Semi-Urgent,39,3,1,11,117,3,80,8,80.74,12,High,100.0,58.27,85.14,Critical,5,Tuesday,0
+P002579,2026-01-30 18:13:00,7,Female,Emergency,Ambulance,Urgent,48,2,0,18,119,15,43,3,75.34,0,Medium,94.58,55.8,66.6,Warning,18,Friday,0
+P002580,2026-02-12 12:00:00,58,Female,General Medicine,Walk-in,Semi-Urgent,51,3,0,22,134,26,51,5,80.26,7,Medium,94.6,64.39,69.88,Warning,12,Thursday,0
+P002581,2026-02-11 23:36:00,25,Male,Orthopedics,Walk-in,Semi-Urgent,50,3,0,14,70,20,52,6,74.52,0,Medium,100.0,65.83,73.02,Warning,23,Wednesday,0
+P002582,2026-01-29 17:39:00,25,Female,ICU,Walk-in,Critical,19,1,1,25,132,16,43,2,76.14,14,Low,83.55,31.52,52.08,Normal,17,Thursday,0
+P002583,2026-02-12 14:44:00,66,Male,Emergency,Transfer,Critical,13,1,1,17,81,23,84,1,80.87,12,Medium,100.0,27.58,58.48,Warning,14,Thursday,0
+P002584,2026-02-07 08:33:00,86,Male,ICU,Walk-in,Semi-Urgent,24,2,1,21,110,20,53,2,63.57,14,Low,87.06,29.97,53.18,Normal,8,Saturday,1
+P002585,2026-01-19 02:53:00,71,Female,General Medicine,Transfer,Non-Urgent,42,4,0,22,181,30,31,0,63.59,7,Low,61.44,29.34,40.64,Normal,2,Monday,0
+P002586,2026-01-17 08:23:00,43,Female,Emergency,Walk-in,Critical,2,1,1,22,219,35,54,1,45.7,2,Low,45.24,15.27,27.52,Normal,8,Saturday,1
+P002587,2026-01-31 07:54:00,51,Female,Emergency,Walk-in,Urgent,28,2,0,21,220,34,86,3,58.03,14,Low,56.26,33.07,39.57,Normal,7,Saturday,1
+P002588,2026-01-26 11:06:00,79,Male,Neurology,Ambulance,Urgent,55,2,0,17,153,19,43,4,71.56,0,Medium,86.61,60.29,64.48,Warning,11,Monday,0
+P002589,2026-01-27 13:02:00,19,Female,General Medicine,Ambulance,Semi-Urgent,57,3,1,33,106,32,58,10,96.4,12,High,100.0,86.34,80.81,Critical,13,Tuesday,0
+P002590,2026-01-19 16:33:00,4,Male,Emergency,Walk-in,Semi-Urgent,13,3,0,24,151,10,36,3,71.03,14,Low,79.18,31.52,49.98,Normal,16,Monday,0
+P002591,2026-02-10 20:13:00,61,Male,ICU,Transfer,Critical,35,1,1,21,131,22,58,6,94.28,16,Medium,100.0,65.97,73.07,Warning,20,Tuesday,0
+P002592,2026-02-04 18:20:00,59,Male,Orthopedics,Walk-in,Urgent,57,2,0,26,129,24,45,3,68.76,3,Medium,82.82,57.03,61.42,Warning,18,Wednesday,0
+P002593,2026-01-21 03:57:00,62,Male,Emergency,Ambulance,Critical,14,1,1,19,86,27,61,3,81.23,9,Medium,100.0,34.39,61.07,Warning,3,Wednesday,0
+P002594,2026-01-17 02:31:00,6,Female,Pediatrics,Transfer,Semi-Urgent,5,3,0,36,118,33,62,3,47.59,12,Low,68.88,23.1,41.84,Normal,2,Saturday,1
+P002595,2026-01-20 00:38:00,31,Female,Pediatrics,Walk-in,Critical,12,1,1,37,177,31,67,0,61.43,6,Low,50.33,19.2,31.45,Normal,0,Tuesday,0
+P002596,2026-01-27 01:35:00,39,Female,Pediatrics,Ambulance,Urgent,2,2,1,18,89,24,81,2,49.8,4,Low,88.99,19.49,50.12,Normal,1,Tuesday,0
+P002597,2026-01-29 06:28:00,95,Female,ICU,Ambulance,Urgent,9,2,0,29,89,37,55,2,60.39,8,Low,85.51,24.38,50.31,Normal,6,Thursday,0
+P002598,2026-01-19 08:13:00,53,Male,Emergency,Walk-in,Critical,3,1,1,51,116,31,65,2,62.56,7,Low,62.42,23.0,38.7,Normal,8,Monday,0
+P002599,2026-01-30 04:22:00,34,Male,Orthopedics,Ambulance,Semi-Urgent,35,3,0,10,108,30,70,3,52.97,6,Medium,93.6,34.04,57.86,Warning,4,Friday,0
+P002600,2026-02-05 12:09:00,21,Male,ICU,Walk-in,Urgent,50,2,1,19,224,28,51,1,79.93,11,Low,61.5,51.18,48.97,Normal,12,Thursday,0
+P002601,2026-02-03 02:09:00,1,Male,Emergency,Walk-in,Urgent,10,2,0,24,158,38,74,0,50.51,11,Low,60.49,15.83,35.05,Normal,2,Tuesday,0
+P002602,2026-02-11 04:55:00,53,Female,Pediatrics,Transfer,Non-Urgent,2,4,0,30,145,23,43,1,71.25,11,Low,71.46,21.65,42.53,Normal,4,Wednesday,0
+P002603,2026-01-20 17:04:00,91,Female,Emergency,Transfer,Non-Urgent,45,4,0,27,56,33,56,3,73.85,9,Medium,100.0,42.46,64.13,Warning,17,Tuesday,0
+P002604,2026-02-09 22:59:00,73,Male,General Medicine,Ambulance,Non-Urgent,57,4,1,0,114,12,60,9,100.0,0,High,100.0,84.04,79.94,Critical,22,Monday,0
+P002605,2026-02-02 23:51:00,62,Female,Emergency,Walk-in,Urgent,36,2,1,11,165,21,38,1,36.38,10,Low,64.42,35.81,44.53,Normal,23,Monday,0
+P002606,2026-02-04 19:18:00,75,Female,Emergency,Walk-in,Non-Urgent,67,4,1,21,129,20,51,4,73.88,3,Medium,91.38,64.71,68.45,Warning,19,Wednesday,0
+P002607,2026-01-23 04:51:00,71,Female,Emergency,Ambulance,Semi-Urgent,46,3,0,20,105,17,40,4,41.63,10,Low,84.33,37.93,54.89,Normal,4,Friday,0
+P002608,2026-01-21 19:45:00,40,Female,Orthopedics,Walk-in,Non-Urgent,25,4,0,4,146,23,61,4,100.0,10,Medium,100.0,57.8,69.96,Warning,19,Wednesday,0
+P002609,2026-02-09 13:36:00,45,Male,Neurology,Transfer,Semi-Urgent,9,3,0,19,158,21,45,4,76.4,12,Medium,85.89,46.78,59.0,Warning,13,Monday,0
+P002610,2026-01-20 17:25:00,44,Male,Cardiology,Ambulance,Non-Urgent,24,3,1,22,178,32,52,9,77.79,9,Medium,91.17,55.93,65.02,Warning,17,Tuesday,0
+P002611,2026-02-01 01:26:00,31,Female,Cardiology,Walk-in,Urgent,14,2,0,45,227,26,47,3,53.09,17,Low,34.08,27.35,26.75,Normal,1,Sunday,1
+P002612,2026-02-06 13:07:00,1,Female,General Medicine,Ambulance,Urgent,55,2,1,0,80,14,68,9,75.19,14,High,100.0,77.2,77.34,Critical,13,Friday,0
+P002613,2026-01-19 12:34:00,19,Male,General Medicine,Transfer,Semi-Urgent,58,3,1,22,214,6,82,9,100.0,0,High,91.08,84.36,90.78,Critical,12,Monday,0
+P002614,2026-02-08 02:25:00,53,Male,Pediatrics,Walk-in,Non-Urgent,27,4,0,33,196,22,68,3,96.9,4,Low,71.47,42.47,50.44,Normal,2,Sunday,1
+P002615,2026-01-31 10:30:00,17,Female,Emergency,Transfer,Urgent,20,2,1,31,110,4,32,5,98.14,16,High,100.0,58.94,85.4,Critical,10,Saturday,1
+P002616,2026-01-30 14:19:00,21,Female,Cardiology,Walk-in,Urgent,2,2,1,16,155,21,51,1,46.27,15,Low,67.92,15.41,38.46,Normal,14,Friday,0
+P002617,2026-02-03 22:20:00,53,Male,ICU,Walk-in,Semi-Urgent,47,2,0,31,117,17,33,2,73.09,12,Medium,81.88,51.71,58.95,Warning,22,Tuesday,0
+P002618,2026-01-21 09:53:00,45,Female,Emergency,Walk-in,Non-Urgent,49,4,0,30,142,24,51,2,72.1,9,Medium,75.19,52.1,55.89,Warning,9,Wednesday,0
+P002619,2026-01-18 17:29:00,7,Male,Emergency,Ambulance,Urgent,22,2,1,2,153,36,90,5,71.36,20,Medium,100.0,40.88,63.53,Warning,17,Sunday,1
+P002620,2026-01-16 05:09:00,51,Female,Emergency,Walk-in,Non-Urgent,53,4,0,34,199,17,28,3,47.68,9,Low,47.74,38.48,37.54,Normal,5,Friday,0
+P002621,2026-02-03 21:15:00,7,Male,Emergency,Walk-in,Urgent,24,2,0,4,101,36,58,3,90.29,7,Medium,100.0,51.85,67.7,Warning,21,Tuesday,0
+P002622,2026-01-17 05:05:00,56,Male,Orthopedics,Transfer,Semi-Urgent,21,3,0,25,190,18,60,2,83.57,10,Low,70.66,34.01,46.84,Normal,5,Saturday,1
+P002623,2026-01-21 16:43:00,45,Male,Neurology,Walk-in,Non-Urgent,19,4,0,16,167,32,70,1,56.08,16,Low,68.98,23.3,41.96,Normal,16,Wednesday,0
+P002624,2026-02-03 00:41:00,45,Female,Pediatrics,Walk-in,Urgent,2,2,0,0,179,26,40,1,64.96,4,Low,81.61,20.08,46.8,Normal,0,Tuesday,0
+P002625,2026-01-27 12:50:00,26,Male,Pediatrics,Walk-in,Critical,40,1,1,21,74,9,57,6,81.42,3,High,100.0,64.36,87.46,Critical,12,Tuesday,0
+P002626,2026-01-18 23:09:00,66,Male,ICU,Walk-in,Non-Urgent,53,3,1,24,70,19,8,7,78.83,0,High,100.0,71.07,75.01,Critical,23,Sunday,1
+P002627,2026-01-28 14:47:00,29,Male,Pediatrics,Ambulance,Non-Urgent,26,4,0,13,193,35,42,9,75.86,0,Medium,92.85,56.09,65.88,Warning,14,Wednesday,0
+P002628,2026-01-21 08:56:00,41,Female,Neurology,Ambulance,Critical,51,1,1,30,139,30,65,5,75.84,5,Medium,85.21,51.28,60.39,Warning,8,Wednesday,0
+P002629,2026-01-26 16:54:00,43,Female,Emergency,Walk-in,Urgent,2,2,0,30,151,33,63,2,53.78,11,Low,64.42,20.48,38.7,Normal,16,Monday,0
+P002630,2026-02-07 07:00:00,48,Female,Emergency,Ambulance,Urgent,26,2,1,10,97,25,63,5,57.3,6,Medium,100.0,38.64,62.68,Warning,7,Saturday,1
+P002631,2026-01-16 06:35:00,76,Male,Neurology,Walk-in,Semi-Urgent,4,3,0,0,116,22,73,2,51.49,20,Low,95.69,20.55,53.74,Normal,6,Friday,0
+P002632,2026-02-01 11:13:00,1,Male,ICU,Walk-in,Semi-Urgent,45,2,1,9,163,18,38,4,79.02,17,Medium,93.17,58.95,67.12,Warning,11,Sunday,1
+P002633,2026-02-09 04:29:00,13,Female,Neurology,Ambulance,Urgent,14,2,0,20,112,22,49,7,84.94,2,Medium,100.0,48.12,66.29,Warning,4,Monday,0
+P002634,2026-02-09 04:36:00,42,Male,Emergency,Ambulance,Semi-Urgent,35,3,0,16,177,38,42,2,73.87,10,Low,76.68,36.07,50.51,Normal,4,Monday,0
+P002635,2026-02-05 13:53:00,24,Male,Neurology,Walk-in,Non-Urgent,38,4,0,20,174,38,75,3,93.7,0,Medium,85.94,57.19,62.98,Warning,13,Thursday,0
+P002636,2026-02-07 08:51:00,45,Female,Emergency,Walk-in,Urgent,12,2,1,32,49,34,31,3,82.92,16,Medium,100.0,34.17,60.98,Warning,8,Saturday,1
+P002637,2026-01-31 17:51:00,54,Male,Cardiology,Walk-in,Non-Urgent,23,3,0,25,161,20,49,0,38.54,9,Low,53.51,17.0,32.14,Normal,17,Saturday,1
+P002638,2026-01-23 05:58:00,44,Female,Emergency,Ambulance,Urgent,18,2,1,39,70,28,72,8,75.5,17,Medium,100.0,50.23,67.09,Warning,5,Friday,0
+P002639,2026-02-11 22:05:00,48,Female,Cardiology,Walk-in,Urgent,11,2,1,0,113,15,41,1,77.24,1,Medium,100.0,38.03,62.45,Warning,22,Wednesday,0
+P002640,2026-01-23 19:27:00,32,Male,Emergency,Walk-in,Semi-Urgent,51,3,0,15,65,26,35,4,63.4,6,Medium,100.0,56.97,69.65,Warning,19,Friday,0
+P002641,2026-01-28 07:34:00,11,Female,Orthopedics,Walk-in,Urgent,3,2,0,28,169,43,43,1,70.36,9,Low,65.84,21.75,39.87,Normal,7,Wednesday,0
+P002642,2026-01-31 06:07:00,69,Male,General Medicine,Walk-in,Urgent,38,2,0,14,222,31,35,1,53.0,16,Low,53.69,28.61,36.64,Normal,6,Saturday,1
+P002643,2026-02-08 23:27:00,49,Female,Pediatrics,Ambulance,Urgent,44,2,1,6,69,24,45,8,100.0,7,High,100.0,76.68,77.14,Critical,23,Sunday,1
+P002644,2026-01-16 15:13:00,48,Female,Emergency,Walk-in,Urgent,18,2,0,26,54,35,43,2,65.69,12,Medium,99.94,28.58,58.83,Warning,15,Friday,0
+P002645,2026-02-01 06:29:00,41,Male,Pediatrics,Walk-in,Semi-Urgent,18,3,0,7,134,30,60,4,63.22,11,Medium,95.68,34.37,58.99,Warning,6,Sunday,1
+P002646,2026-01-26 14:15:00,57,Male,Neurology,Ambulance,Urgent,2,2,0,36,6,44,66,3,71.91,6,Medium,100.0,28.22,58.72,Warning,14,Monday,0
+P002647,2026-02-12 12:08:00,1,Female,Emergency,Ambulance,Urgent,31,2,1,8,123,13,49,8,87.64,2,Medium,100.0,69.43,74.38,Warning,12,Thursday,0
+P002648,2026-01-28 11:24:00,95,Male,Emergency,Walk-in,Non-Urgent,53,4,0,15,123,35,63,5,70.51,11,Medium,98.54,62.59,71.08,Warning,11,Wednesday,0
+P002649,2026-01-16 20:24:00,15,Male,Emergency,Transfer,Non-Urgent,42,4,0,24,185,26,40,2,69.1,9,Low,66.29,49.11,50.48,Normal,20,Friday,0
+P002650,2026-01-28 22:36:00,78,Male,Emergency,Transfer,Semi-Urgent,26,3,1,2,3,18,30,8,79.41,13,Medium,100.0,65.77,72.99,Warning,22,Wednesday,0
+P002651,2026-01-31 18:01:00,47,Male,Cardiology,Ambulance,Semi-Urgent,53,2,1,14,57,10,56,8,100.0,0,High,100.0,79.56,78.23,Critical,18,Saturday,1
+P002652,2026-02-02 04:29:00,72,Male,Orthopedics,Walk-in,Urgent,5,2,1,35,78,28,60,1,68.35,6,Low,85.17,21.89,49.2,Normal,4,Monday,0
+P002653,2026-01-21 11:50:00,67,Male,Emergency,Walk-in,Urgent,61,2,1,27,73,18,70,6,63.08,0,Medium,100.0,66.49,73.27,Warning,11,Wednesday,0
+P002654,2026-01-25 12:42:00,35,Female,General Medicine,Ambulance,Urgent,46,2,0,0,89,18,50,2,48.83,8,Medium,100.0,45.33,65.23,Warning,12,Sunday,1
+P002655,2026-01-30 06:05:00,45,Male,Emergency,Walk-in,Critical,27,1,1,21,77,21,58,0,65.04,21,Low,91.96,24.9,53.6,Normal,6,Friday,0
+P002656,2026-02-01 10:06:00,55,Female,Emergency,Walk-in,Semi-Urgent,33,3,0,31,203,24,85,5,84.94,6,Medium,70.63,59.8,56.63,Warning,10,Sunday,1
+P002657,2026-02-05 12:20:00,35,Female,Neurology,Walk-in,Urgent,71,2,1,10,66,35,39,4,85.66,3,Medium,100.0,68.94,74.2,Warning,12,Thursday,0
+P002658,2026-01-21 15:14:00,18,Female,Pediatrics,Transfer,Urgent,21,2,0,27,156,23,47,1,60.39,11,Low,65.75,25.02,41.07,Normal,15,Wednesday,0
+P002659,2026-02-11 23:53:00,55,Female,Orthopedics,Transfer,Semi-Urgent,77,3,1,24,143,14,50,6,82.92,15,Medium,94.27,76.57,74.35,Warning,23,Wednesday,0
+P002660,2026-02-02 01:26:00,72,Male,Cardiology,Ambulance,Semi-Urgent,11,2,0,21,139,42,46,3,74.85,14,Low,86.51,31.83,53.62,Normal,1,Monday,0
+P002661,2026-01-17 11:30:00,57,Male,Emergency,Walk-in,Critical,57,1,0,29,129,27,46,3,70.95,10,Medium,81.56,57.58,61.03,Warning,11,Saturday,1
+P002662,2026-02-07 02:36:00,2,Male,Orthopedics,Walk-in,Semi-Urgent,7,3,0,12,124,32,45,3,39.66,12,Low,81.63,21.76,47.45,Normal,2,Saturday,1
+P002663,2026-02-11 19:42:00,46,Male,Emergency,Ambulance,Urgent,55,2,1,14,40,15,46,10,100.0,8,High,100.0,86.6,80.91,Critical,19,Wednesday,0
+P002664,2026-02-09 01:45:00,59,Male,Neurology,Ambulance,Semi-Urgent,42,3,0,9,97,32,48,7,70.36,8,Medium,100.0,53.43,68.3,Warning,1,Monday,0
+P002665,2026-01-25 03:00:00,54,Female,Pediatrics,Ambulance,Urgent,65,2,1,35,168,21,51,11,81.01,0,Medium,90.66,76.25,72.49,Warning,3,Sunday,1
+P002666,2026-02-02 21:14:00,95,Female,Cardiology,Ambulance,Urgent,51,2,1,14,66,13,53,9,91.4,4,High,100.0,79.97,78.39,Critical,21,Monday,0
+P002667,2026-02-12 08:06:00,60,Male,ICU,Walk-in,Non-Urgent,2,3,0,22,110,34,47,1,84.58,14,Low,93.26,24.98,54.26,Normal,8,Thursday,0
+P002668,2026-01-21 16:53:00,29,Female,Neurology,Ambulance,Non-Urgent,33,4,0,0,61,25,36,8,81.04,5,Medium,100.0,56.42,69.44,Warning,16,Wednesday,0
+P002669,2026-01-18 20:20:00,59,Male,General Medicine,Transfer,Urgent,29,2,0,18,97,24,48,5,80.05,11,Medium,100.0,57.29,69.77,Warning,20,Sunday,1
+P002670,2026-01-30 05:04:00,78,Female,Neurology,Walk-in,Non-Urgent,17,4,0,21,154,23,61,2,67.31,2,Low,76.42,28.67,47.58,Normal,5,Friday,0
+P002671,2026-01-21 06:18:00,44,Male,Pediatrics,Transfer,Semi-Urgent,30,3,0,20,188,34,66,2,43.73,14,Low,57.04,26.93,37.61,Normal,6,Wednesday,0
+P002672,2026-02-14 09:18:00,30,Male,Cardiology,Walk-in,Semi-Urgent,21,2,0,22,82,16,60,4,77.82,14,Medium,100.0,50.97,67.37,Warning,9,Saturday,1
+P002673,2026-02-11 01:44:00,50,Male,Orthopedics,Transfer,Urgent,22,2,0,33,211,26,45,2,57.09,9,Low,46.86,27.71,33.02,Normal,1,Wednesday,0
+P002674,2026-01-31 03:53:00,36,Male,Orthopedics,Walk-in,Urgent,24,2,1,10,142,20,77,5,74.75,8,Medium,98.88,42.37,63.56,Warning,3,Saturday,1
+P002675,2026-02-09 20:14:00,54,Female,Pediatrics,Ambulance,Semi-Urgent,39,3,0,14,207,24,32,6,86.97,12,Medium,85.68,65.42,65.99,Warning,20,Monday,0
+P002676,2026-01-18 16:29:00,29,Male,General Medicine,Transfer,Non-Urgent,9,4,0,48,135,24,79,1,60.05,15,Low,55.72,21.09,34.76,Normal,16,Sunday,1
+P002677,2026-01-26 20:23:00,27,Female,Pediatrics,Walk-in,Semi-Urgent,51,3,0,22,180,5,43,3,49.52,8,Medium,62.88,50.3,64.3,Warning,20,Monday,0
+P002678,2026-02-11 16:00:00,35,Female,General Medicine,Walk-in,Semi-Urgent,26,3,1,0,148,38,61,2,54.55,1,Low,88.11,28.36,53.07,Normal,16,Wednesday,0
+P002679,2026-02-12 11:38:00,12,Female,Cardiology,Ambulance,Non-Urgent,75,3,0,7,59,20,47,9,70.19,3,High,100.0,82.35,79.29,Critical,11,Thursday,0
+P002680,2026-02-11 11:59:00,49,Female,ICU,Walk-in,Semi-Urgent,48,2,1,27,123,18,43,2,71.85,9,Medium,82.64,51.72,59.32,Warning,11,Wednesday,0
+P002681,2026-01-31 10:21:00,61,Female,Pediatrics,Walk-in,Non-Urgent,47,4,0,12,145,18,89,4,71.59,6,Medium,92.62,57.74,66.4,Warning,10,Saturday,1
+P002682,2026-01-28 22:22:00,25,Male,Emergency,Walk-in,Non-Urgent,64,4,1,0,139,17,35,5,58.49,12,Medium,99.9,63.1,71.93,Warning,22,Wednesday,0
+P002683,2026-01-28 09:07:00,5,Male,ICU,Ambulance,Non-Urgent,38,3,1,9,87,18,58,7,82.14,10,Medium,100.0,67.09,73.49,Warning,9,Wednesday,0
+P002684,2026-01-27 05:47:00,36,Male,Emergency,Walk-in,Critical,2,1,0,14,163,37,71,2,80.7,0,Low,85.17,27.21,51.22,Normal,5,Tuesday,0
+P002685,2026-02-12 18:28:00,17,Male,Cardiology,Walk-in,Non-Urgent,58,3,1,21,82,26,37,6,88.17,9,High,100.0,71.8,75.28,Critical,18,Thursday,0
+P002686,2026-02-02 19:31:00,72,Female,Cardiology,Transfer,Urgent,32,2,0,11,102,18,30,3,85.11,0,Medium,100.0,53.12,68.19,Warning,19,Monday,0
+P002687,2026-02-02 04:33:00,42,Female,General Medicine,Transfer,Semi-Urgent,2,3,0,40,147,33,64,1,71.79,8,Low,63.65,21.79,38.83,Normal,4,Monday,0
+P002688,2026-01-17 05:10:00,52,Female,ICU,Ambulance,Urgent,13,2,0,13,106,31,84,7,76.53,8,Medium,100.0,45.69,65.36,Warning,5,Saturday,1
+P002689,2026-01-19 07:02:00,47,Female,Cardiology,Walk-in,Semi-Urgent,20,2,1,9,136,15,76,3,49.9,7,Low,85.12,28.48,51.68,Normal,7,Monday,0
+P002690,2026-01-24 10:15:00,68,Female,General Medicine,Ambulance,Semi-Urgent,78,3,1,9,107,17,53,5,65.35,0,Medium,100.0,69.3,74.33,Warning,10,Saturday,1
+P002691,2026-01-26 12:37:00,46,Female,Orthopedics,Walk-in,Non-Urgent,2,4,0,19,98,16,37,4,66.97,13,Medium,98.45,42.18,63.28,Warning,12,Monday,0
+P002692,2026-01-21 09:12:00,58,Female,Neurology,Transfer,Non-Urgent,37,4,0,12,65,23,22,5,82.43,12,Medium,100.0,60.45,70.97,Warning,9,Wednesday,0
+P002693,2026-02-09 22:24:00,22,Female,ICU,Walk-in,Semi-Urgent,58,2,0,0,16,6,78,4,78.22,4,High,100.0,62.91,86.91,Critical,22,Monday,0
+P002694,2026-01-16 17:27:00,62,Female,Cardiology,Walk-in,Critical,18,1,1,7,207,6,52,3,70.4,1,Medium,75.97,32.96,63.99,Warning,17,Friday,0
+P002695,2026-01-19 00:37:00,69,Female,Emergency,Transfer,Urgent,2,2,0,17,188,30,62,0,68.28,7,Low,65.34,17.71,38.09,Normal,0,Monday,0
+P002696,2026-01-24 05:07:00,60,Male,Neurology,Walk-in,Non-Urgent,28,4,0,20,131,27,80,5,69.23,12,Medium,91.97,42.27,60.21,Warning,5,Saturday,1
+P002697,2026-01-23 22:38:00,3,Female,Cardiology,Ambulance,Urgent,61,2,1,0,77,32,90,5,76.95,13,Medium,100.0,66.76,73.37,Warning,22,Friday,0
+P002698,2026-01-20 02:27:00,65,Female,Emergency,Walk-in,Non-Urgent,10,4,0,33,110,23,68,2,49.5,13,Low,71.72,21.98,42.78,Normal,2,Tuesday,0
+P002699,2026-02-03 00:48:00,35,Male,Emergency,Walk-in,Non-Urgent,29,4,1,25,139,17,46,3,52.86,11,Low,73.62,32.09,47.53,Normal,0,Tuesday,0
+P002700,2026-01-22 10:12:00,60,Female,Orthopedics,Walk-in,Semi-Urgent,54,3,0,6,114,11,52,5,83.4,9,Medium,100.0,66.13,73.13,Warning,10,Thursday,0
+P002701,2026-02-04 20:03:00,60,Male,General Medicine,Ambulance,Urgent,58,2,1,0,43,27,49,9,80.99,11,High,100.0,79.61,78.25,Critical,20,Wednesday,0
+P002702,2026-02-06 10:55:00,38,Female,Emergency,Walk-in,Semi-Urgent,34,3,0,3,122,18,66,3,78.03,13,Medium,100.0,51.99,67.76,Warning,10,Friday,0
+P002703,2026-01-21 14:42:00,14,Female,Emergency,Transfer,Urgent,27,2,1,18,115,10,62,4,65.02,13,Medium,93.56,37.7,59.23,Warning,14,Wednesday,0
+P002704,2026-01-26 00:01:00,59,Female,Orthopedics,Walk-in,Urgent,32,2,0,55,161,24,57,0,59.64,14,Low,40.51,25.15,29.0,Normal,0,Monday,0
+P002705,2026-02-07 13:40:00,1,Male,Cardiology,Walk-in,Semi-Urgent,30,2,1,30,160,29,46,4,90.88,9,Medium,83.6,57.12,61.83,Warning,13,Saturday,1
+P002706,2026-02-11 06:25:00,52,Male,Pediatrics,Walk-in,Non-Urgent,12,4,0,14,123,24,58,0,59.02,13,Low,81.62,18.59,46.24,Normal,6,Wednesday,0
+P002707,2026-01-30 03:59:00,25,Male,Pediatrics,Transfer,Non-Urgent,37,4,0,26,70,20,76,0,64.88,15,Low,90.1,28.06,53.91,Normal,3,Friday,0
+P002708,2026-02-06 02:22:00,25,Male,Neurology,Walk-in,Semi-Urgent,28,3,1,13,172,18,76,2,37.62,17,Low,64.02,24.77,40.14,Normal,2,Friday,0
+P002709,2026-02-11 02:38:00,29,Female,Cardiology,Walk-in,Critical,4,1,1,35,161,27,44,1,54.55,12,Low,55.72,18.12,33.63,Normal,2,Wednesday,0
+P002710,2026-01-28 12:03:00,50,Male,Orthopedics,Walk-in,Urgent,57,2,1,8,107,13,43,5,82.11,0,Medium,100.0,66.77,73.37,Warning,12,Wednesday,0
+P002711,2026-02-12 17:32:00,46,Male,Neurology,Transfer,Semi-Urgent,33,3,0,34,87,30,53,4,62.54,6,Medium,88.28,38.99,57.19,Warning,17,Thursday,0
+P002712,2026-02-06 02:42:00,36,Female,Neurology,Ambulance,Semi-Urgent,36,3,1,9,61,16,91,11,100.0,10,High,100.0,71.72,75.25,Critical,2,Friday,0
+P002713,2026-02-02 03:48:00,4,Female,Pediatrics,Ambulance,Urgent,2,2,0,17,197,29,74,2,36.53,9,Low,53.53,16.17,31.84,Normal,3,Monday,0
+P002714,2026-02-09 07:05:00,2,Male,Emergency,Walk-in,Urgent,5,2,0,18,150,27,60,1,65.33,6,Low,76.4,21.13,44.7,Normal,7,Monday,0
+P002715,2026-01-17 20:16:00,43,Female,Pediatrics,Walk-in,Urgent,46,2,0,15,124,24,40,5,76.93,16,Medium,100.0,61.95,71.54,Warning,20,Saturday,1
+P002716,2026-02-11 21:44:00,42,Male,Emergency,Walk-in,Semi-Urgent,30,3,0,18,160,9,57,3,65.59,1,Medium,78.72,47.6,70.87,Warning,21,Wednesday,0
+P002717,2026-01-22 22:35:00,44,Female,Neurology,Ambulance,Semi-Urgent,62,3,1,29,97,18,61,8,96.54,5,High,100.0,81.58,79.0,Critical,22,Thursday,0
+P002718,2026-01-25 14:03:00,15,Female,Cardiology,Ambulance,Urgent,49,2,1,25,173,13,60,9,84.4,7,Medium,93.29,65.58,69.7,Warning,14,Sunday,1
+P002719,2026-01-25 23:53:00,47,Female,Neurology,Walk-in,Critical,51,1,1,17,75,19,50,5,74.4,5,Medium,100.0,62.92,71.91,Warning,23,Sunday,1
+P002720,2026-02-09 11:39:00,78,Female,ICU,Transfer,Urgent,51,2,1,37,113,34,66,3,80.01,8,Medium,84.11,57.92,62.38,Warning,11,Monday,0
+P002721,2026-02-15 07:00:00,95,Female,Pediatrics,Walk-in,Non-Urgent,35,4,0,24,150,31,70,0,54.88,7,Low,64.7,24.92,40.53,Normal,7,Sunday,1
+P002722,2026-01-29 03:46:00,11,Female,Cardiology,Walk-in,Semi-Urgent,4,2,1,16,123,39,86,2,72.76,13,Low,91.3,25.87,53.65,Normal,3,Thursday,0
+P002723,2026-01-25 15:23:00,48,Male,Orthopedics,Walk-in,Semi-Urgent,5,3,0,24,100,45,83,3,56.44,10,Low,86.9,25.31,51.33,Normal,15,Sunday,1
+P002724,2026-02-02 09:50:00,59,Male,Orthopedics,Walk-in,Urgent,25,2,1,14,159,20,15,5,70.56,0,Medium,89.23,53.64,63.21,Warning,9,Monday,0
+P002725,2026-01-29 00:01:00,45,Female,Emergency,Ambulance,Urgent,17,2,1,20,67,35,45,6,67.26,2,Medium,100.0,41.46,63.75,Warning,0,Thursday,0
+P002726,2026-02-08 20:30:00,35,Male,Orthopedics,Walk-in,Semi-Urgent,62,3,0,7,136,10,18,2,65.57,10,Medium,91.18,54.63,64.53,Warning,20,Sunday,1
+P002727,2026-01-19 10:15:00,37,Male,Neurology,Walk-in,Urgent,52,2,0,9,153,3,43,5,77.25,12,High,97.67,63.95,86.18,Critical,10,Monday,0
+P002728,2026-02-06 04:51:00,54,Female,Pediatrics,Walk-in,Urgent,2,2,1,16,144,35,35,1,88.15,12,Low,89.85,25.88,52.96,Normal,4,Friday,0
+P002729,2026-01-21 15:26:00,24,Female,Pediatrics,Walk-in,Non-Urgent,2,4,0,23,179,20,59,1,56.65,19,Low,60.62,18.0,35.94,Normal,15,Wednesday,0
+P002730,2026-01-25 13:54:00,95,Male,Emergency,Walk-in,Critical,13,1,1,8,90,27,57,2,80.65,14,Medium,100.0,42.72,64.23,Warning,13,Sunday,1
+P002731,2026-01-21 12:46:00,27,Female,Pediatrics,Walk-in,Urgent,65,2,0,1,25,23,29,3,64.07,0,Medium,100.0,58.42,70.2,Warning,12,Wednesday,0
+P002732,2026-02-01 08:35:00,8,Male,Cardiology,Walk-in,Critical,9,1,0,19,139,40,52,2,45.81,10,Low,72.44,20.73,42.65,Normal,8,Sunday,1
+P002733,2026-01-19 11:12:00,48,Male,Neurology,Transfer,Semi-Urgent,43,3,0,22,176,16,36,1,58.46,8,Low,63.03,43.58,46.81,Normal,11,Monday,0
+P002734,2026-01-22 03:09:00,10,Male,Emergency,Walk-in,Non-Urgent,62,4,0,11,133,30,58,3,67.35,23,Medium,92.32,46.28,61.9,Warning,3,Thursday,0
+P002735,2026-02-13 11:17:00,37,Male,Emergency,Walk-in,Semi-Urgent,57,3,0,4,98,16,37,5,61.54,8,Medium,100.0,61.62,71.42,Warning,11,Friday,0
+P002736,2026-02-04 14:24:00,14,Male,Cardiology,Walk-in,Critical,12,1,1,22,140,32,52,5,88.61,6,Medium,96.67,41.99,62.36,Warning,14,Wednesday,0
+P002737,2026-02-01 06:35:00,32,Female,Emergency,Ambulance,Semi-Urgent,17,3,1,9,135,25,55,5,75.14,4,Medium,100.0,40.23,63.29,Warning,6,Sunday,1
+P002738,2026-02-06 09:14:00,37,Female,Pediatrics,Ambulance,Semi-Urgent,50,3,1,15,63,18,24,11,100.0,3,High,100.0,88.2,81.52,Critical,9,Friday,0
+P002739,2026-02-14 19:59:00,44,Female,Neurology,Walk-in,Urgent,74,2,1,0,145,32,50,2,89.29,22,Medium,100.0,64.4,72.47,Warning,19,Saturday,1
+P002740,2026-01-20 02:37:00,15,Female,Pediatrics,Ambulance,Urgent,15,2,1,7,109,20,43,4,55.85,7,Medium,99.36,31.56,59.69,Warning,2,Tuesday,0
+P002741,2026-01-27 05:51:00,15,Female,Pediatrics,Transfer,Critical,20,1,0,23,165,29,59,2,76.89,15,Low,76.15,32.02,48.72,Normal,5,Tuesday,0
+P002742,2026-01-23 23:27:00,45,Male,Pediatrics,Walk-in,Semi-Urgent,58,3,0,16,120,14,46,6,97.32,11,High,100.0,74.09,76.15,Critical,23,Friday,0
+P002743,2026-02-10 23:50:00,40,Female,Emergency,Walk-in,Urgent,47,2,0,9,102,20,50,4,62.52,4,Medium,100.0,55.47,69.08,Warning,23,Tuesday,0
+P002744,2026-01-24 22:32:00,28,Male,Cardiology,Ambulance,Semi-Urgent,65,2,1,30,102,20,65,7,87.08,7,High,100.0,76.97,77.25,Critical,22,Saturday,1
+P002745,2026-01-29 23:41:00,58,Male,General Medicine,Walk-in,Urgent,60,2,0,10,88,20,47,2,91.26,10,Medium,100.0,60.42,70.96,Warning,23,Thursday,0
+P002746,2026-01-31 04:09:00,80,Male,Emergency,Ambulance,Semi-Urgent,41,3,1,18,117,18,41,3,58.87,8,Medium,87.73,37.44,56.34,Warning,4,Saturday,1
+P002747,2026-02-10 06:20:00,87,Male,General Medicine,Walk-in,Critical,38,1,1,0,125,30,44,2,56.94,13,Medium,95.62,32.8,58.36,Warning,6,Tuesday,0
+P002748,2026-02-03 18:43:00,61,Male,ICU,Walk-in,Critical,30,1,1,33,84,15,56,2,79.36,16,Medium,92.44,47.84,62.55,Warning,18,Tuesday,0
+P002749,2026-01-17 06:43:00,8,Male,Neurology,Ambulance,Urgent,33,2,0,10,178,25,39,5,69.37,14,Medium,86.38,43.9,58.14,Warning,6,Saturday,1
+P002750,2026-01-24 10:05:00,18,Male,General Medicine,Walk-in,Urgent,25,2,1,33,197,20,37,2,96.9,6,Low,68.69,50.62,52.21,Normal,10,Saturday,1
+P002751,2026-02-11 11:44:00,73,Female,Orthopedics,Ambulance,Semi-Urgent,65,3,1,22,108,10,24,6,66.86,11,Medium,98.35,68.72,73.32,Warning,11,Wednesday,0
+P002752,2026-01-29 17:58:00,41,Male,Cardiology,Walk-in,Critical,16,1,0,33,192,29,60,1,59.08,5,Low,50.58,23.09,33.05,Normal,17,Thursday,0
+P002753,2026-01-24 19:34:00,51,Male,Emergency,Ambulance,Urgent,58,2,1,41,78,10,50,6,96.65,5,High,100.0,73.92,76.09,Critical,19,Saturday,1
+P002754,2026-02-10 13:21:00,60,Male,Emergency,Walk-in,Urgent,66,2,1,27,155,13,84,3,61.01,15,Medium,71.3,57.97,56.25,Warning,13,Tuesday,0
+P002755,2026-01-30 01:55:00,46,Female,Orthopedics,Walk-in,Semi-Urgent,48,3,0,15,199,16,28,1,65.71,14,Low,65.1,34.99,44.54,Normal,1,Friday,0
+P002756,2026-01-23 16:19:00,10,Female,Neurology,Walk-in,Semi-Urgent,21,3,0,20,107,24,52,4,86.16,1,Medium,100.0,41.06,63.6,Warning,16,Friday,0
+P002757,2026-02-12 01:53:00,81,Male,Pediatrics,Ambulance,Semi-Urgent,29,3,0,21,105,30,54,5,74.83,11,Medium,100.0,43.99,64.72,Warning,1,Thursday,0
+P002758,2026-02-12 10:06:00,46,Female,Pediatrics,Walk-in,Urgent,52,2,0,23,72,26,35,8,90.96,10,High,100.0,76.98,77.25,Critical,10,Thursday,0
+P002759,2026-02-03 01:24:00,22,Male,Emergency,Walk-in,Urgent,15,2,0,32,159,25,61,2,58.52,7,Low,62.81,25.83,39.96,Normal,1,Tuesday,0
+P002760,2026-01-24 02:35:00,47,Female,Emergency,Ambulance,Non-Urgent,13,4,0,24,117,23,69,10,73.68,2,Medium,100.0,54.58,68.74,Warning,2,Saturday,1
+P002761,2026-02-07 02:54:00,73,Male,Emergency,Walk-in,Urgent,16,2,0,14,260,29,28,3,82.28,8,Low,61.23,35.29,42.8,Normal,2,Saturday,1
+P002762,2026-02-03 12:17:00,27,Male,Emergency,Walk-in,Semi-Urgent,19,3,1,20,19,9,76,3,79.26,7,High,100.0,47.5,81.05,Critical,12,Tuesday,0
+P002763,2026-02-15 13:59:00,42,Male,Pediatrics,Walk-in,Urgent,28,2,0,27,50,14,46,5,76.23,19,Medium,100.0,56.02,69.29,Warning,13,Sunday,1
+P002764,2026-02-15 12:58:00,42,Male,Cardiology,Walk-in,Critical,51,1,1,0,216,10,39,4,89.34,6,Medium,89.72,63.45,67.18,Warning,12,Sunday,1
+P002765,2026-01-21 12:12:00,46,Male,Emergency,Ambulance,Critical,21,1,1,0,85,14,21,5,88.74,9,Medium,100.0,56.91,69.63,Warning,12,Wednesday,0
+P002766,2026-01-16 20:40:00,49,Male,Pediatrics,Walk-in,Semi-Urgent,51,3,1,22,60,29,61,8,87.51,3,High,100.0,75.8,76.8,Critical,20,Friday,0
+P002767,2026-01-31 23:26:00,28,Female,Neurology,Ambulance,Semi-Urgent,35,3,0,25,163,18,81,5,88.57,6,Medium,87.97,61.34,65.53,Warning,23,Saturday,1
+P002768,2026-02-07 08:24:00,68,Female,Emergency,Walk-in,Non-Urgent,20,4,0,26,125,26,92,0,48.57,8,Low,67.36,18.54,39.38,Normal,8,Saturday,1
+P002769,2026-02-09 21:15:00,41,Female,ICU,Transfer,Urgent,44,2,1,1,87,27,46,4,100.0,6,Medium,100.0,63.88,72.27,Warning,21,Monday,0
+P002770,2026-02-05 09:04:00,37,Female,Pediatrics,Walk-in,Semi-Urgent,45,3,1,19,63,18,61,7,72.44,13,Medium,100.0,66.91,73.43,Warning,9,Thursday,0
+P002771,2026-01-24 21:28:00,95,Female,Orthopedics,Ambulance,Semi-Urgent,51,3,1,15,79,26,29,6,80.69,14,Medium,100.0,67.69,73.72,Warning,21,Saturday,1
+P002772,2026-01-25 22:02:00,21,Male,Orthopedics,Walk-in,Non-Urgent,58,4,0,7,162,26,55,5,85.71,11,Medium,100.0,67.99,73.84,Warning,22,Sunday,1
+P002773,2026-01-16 12:17:00,84,Male,Pediatrics,Transfer,Semi-Urgent,63,3,0,5,136,10,36,4,59.66,11,Medium,95.02,59.88,68.36,Warning,12,Friday,0
+P002774,2026-01-16 12:19:00,52,Female,Orthopedics,Walk-in,Urgent,39,2,0,24,68,36,70,2,72.65,11,Medium,100.0,49.04,66.64,Warning,12,Friday,0
+P002775,2026-01-29 21:31:00,25,Female,Emergency,Walk-in,Semi-Urgent,30,3,0,30,169,40,52,4,82.34,5,Medium,77.23,54.98,57.96,Warning,21,Thursday,0
+P002776,2026-01-29 10:20:00,40,Female,Emergency,Walk-in,Semi-Urgent,2,3,0,32,57,10,67,3,93.84,10,Medium,100.0,45.7,65.37,Warning,10,Thursday,0
+P002777,2026-02-12 04:19:00,26,Female,Pediatrics,Ambulance,Non-Urgent,33,4,0,21,155,25,50,9,94.85,7,Medium,100.0,63.07,71.97,Warning,4,Thursday,0
+P002778,2026-01-16 11:26:00,6,Female,Cardiology,Walk-in,Urgent,53,2,1,4,76,29,34,8,79.69,3,High,100.0,74.48,76.3,Critical,11,Friday,0
+P002779,2026-02-09 06:36:00,42,Male,Cardiology,Walk-in,Critical,42,1,0,26,129,13,35,1,50.58,9,Low,69.64,29.29,44.56,Normal,6,Monday,0
+P002780,2026-01-29 17:06:00,19,Female,Neurology,Walk-in,Urgent,18,2,0,10,129,22,49,2,63.16,14,Low,89.8,27.95,53.73,Normal,17,Thursday,0
+P002781,2026-01-21 08:45:00,29,Male,Neurology,Ambulance,Semi-Urgent,13,3,0,29,223,27,51,2,60.66,12,Low,48.11,25.73,32.87,Normal,8,Wednesday,0
+P002782,2026-01-31 01:11:00,21,Female,General Medicine,Ambulance,Semi-Urgent,49,3,0,26,141,23,49,7,90.97,0,Medium,99.46,60.82,70.85,Warning,1,Saturday,1
+P002783,2026-01-17 09:39:00,47,Female,Orthopedics,Walk-in,Urgent,82,2,0,10,156,23,42,3,67.97,11,Medium,86.91,64.83,66.35,Warning,9,Saturday,1
+P002784,2026-02-13 04:36:00,95,Male,Emergency,Walk-in,Urgent,10,2,0,37,116,32,46,1,58.02,18,Low,68.38,20.91,40.77,Normal,4,Friday,0
+P002785,2026-01-29 19:37:00,37,Male,Pediatrics,Transfer,Semi-Urgent,56,3,0,9,39,21,38,5,100.0,7,Medium,100.0,70.92,74.95,Warning,19,Thursday,0
+P002786,2026-01-28 05:39:00,67,Female,ICU,Walk-in,Non-Urgent,46,3,0,18,78,43,53,3,80.06,8,Medium,100.0,44.34,64.85,Warning,5,Wednesday,0
+P002787,2026-02-14 09:45:00,32,Male,General Medicine,Ambulance,Urgent,43,2,1,14,133,15,94,8,98.85,6,High,100.0,76.07,76.91,Critical,9,Saturday,1
+P002788,2026-01-30 17:53:00,46,Female,Cardiology,Ambulance,Semi-Urgent,42,2,1,4,150,14,50,7,38.91,2,Medium,90.01,45.57,60.52,Warning,17,Friday,0
+P002789,2026-01-28 10:02:00,67,Male,Emergency,Walk-in,Semi-Urgent,35,3,0,6,181,33,52,1,65.61,4,Low,76.84,42.8,53.15,Normal,10,Wednesday,0
+P002790,2026-01-25 04:21:00,93,Male,Neurology,Walk-in,Non-Urgent,4,4,0,38,149,27,74,3,79.51,12,Low,73.06,30.76,46.76,Normal,4,Sunday,1
+P002791,2026-01-21 13:03:00,20,Male,Neurology,Walk-in,Semi-Urgent,45,3,1,5,85,27,54,5,77.8,6,Medium,100.0,61.85,71.5,Warning,13,Wednesday,0
+P002792,2026-02-10 15:51:00,36,Female,General Medicine,Transfer,Urgent,19,2,0,32,150,16,73,3,71.44,21,Low,73.65,33.54,48.1,Normal,15,Tuesday,0
+P002793,2026-02-13 22:26:00,70,Male,Emergency,Walk-in,Semi-Urgent,38,3,1,0,20,18,80,8,79.73,0,Medium,100.0,69.69,74.48,Warning,22,Friday,0
+P002794,2026-01-26 09:57:00,61,Female,Orthopedics,Walk-in,Non-Urgent,60,4,1,15,54,20,73,4,75.19,8,Medium,100.0,62.8,71.86,Warning,9,Monday,0
+P002795,2026-01-31 22:47:00,67,Female,Emergency,Walk-in,Non-Urgent,4,4,1,30,128,23,59,2,79.15,15,Low,82.28,39.47,54.49,Normal,22,Saturday,1
+P002796,2026-01-23 08:18:00,8,Male,Pediatrics,Walk-in,Urgent,20,2,1,28,108,26,40,0,51.15,15,Low,71.78,19.19,41.75,Normal,8,Friday,0
+P002797,2026-01-23 02:19:00,1,Male,Emergency,Ambulance,Semi-Urgent,2,3,0,42,107,15,45,2,52.69,11,Low,67.25,20.21,39.96,Normal,2,Friday,0
+P002798,2026-02-14 02:47:00,82,Male,Neurology,Transfer,Non-Urgent,27,4,0,9,145,36,53,1,57.29,14,Low,80.93,26.16,48.79,Normal,2,Saturday,1
+P002799,2026-01-19 07:26:00,1,Female,Cardiology,Transfer,Non-Urgent,2,3,1,22,94,29,88,4,67.7,15,Medium,97.64,30.37,58.41,Warning,7,Monday,0
+P002800,2026-02-07 20:25:00,7,Female,Emergency,Walk-in,Semi-Urgent,85,3,1,37,65,23,42,8,100.0,7,High,100.0,89.8,82.12,Critical,20,Saturday,1
+P002801,2026-01-16 17:59:00,85,Male,Emergency,Ambulance,Non-Urgent,31,4,0,22,84,18,51,5,67.63,12,Medium,100.0,42.83,64.28,Warning,17,Friday,0
+P002802,2026-01-19 09:47:00,19,Male,Neurology,Transfer,Semi-Urgent,28,3,0,15,127,24,65,2,62.18,8,Medium,86.17,42.91,57.67,Warning,9,Monday,0
+P002803,2026-02-16 02:38:00,28,Male,Pediatrics,Walk-in,Semi-Urgent,6,3,0,30,172,29,41,0,65.65,24,Low,58.88,18.33,35.23,Normal,2,Monday,0
+P002804,2026-02-08 17:44:00,14,Male,Emergency,Ambulance,Non-Urgent,12,4,1,21,152,30,23,5,92.77,13,Medium,95.94,43.03,62.4,Warning,17,Sunday,1
+P002805,2026-01-22 19:07:00,46,Male,Emergency,Walk-in,Semi-Urgent,39,3,1,0,179,24,44,3,67.34,11,Medium,87.68,50.92,61.44,Warning,19,Thursday,0
+P002806,2026-01-16 17:26:00,38,Female,Cardiology,Transfer,Non-Urgent,5,3,0,25,138,13,57,1,60.72,12,Low,72.43,19.98,42.36,Normal,17,Friday,0
+P002807,2026-02-03 02:29:00,24,Female,ICU,Walk-in,Non-Urgent,2,3,0,44,115,10,56,1,68.97,9,Low,68.34,21.08,40.81,Normal,2,Tuesday,0
+P002808,2026-01-29 11:33:00,1,Female,Neurology,Walk-in,Non-Urgent,34,4,0,30,66,20,24,4,84.19,20,Medium,100.0,56.73,69.56,Warning,11,Thursday,0
+P002809,2026-01-25 07:20:00,39,Male,Cardiology,Walk-in,Non-Urgent,30,3,1,24,188,36,52,0,48.36,11,Low,51.12,21.69,32.78,Normal,7,Sunday,1
+P002810,2026-02-16 02:40:00,6,Male,Emergency,Walk-in,Semi-Urgent,19,3,1,23,191,21,24,3,62.75,6,Low,65.01,31.37,43.13,Normal,2,Monday,0
+P002811,2026-01-17 17:17:00,7,Female,ICU,Walk-in,Non-Urgent,35,3,0,22,170,29,83,2,59.15,1,Low,67.52,32.39,44.72,Normal,17,Saturday,1
+P002812,2026-01-23 13:02:00,48,Female,Emergency,Walk-in,Urgent,52,2,0,17,77,28,52,7,91.96,15,High,100.0,74.03,76.13,Critical,13,Friday,0
+P002813,2026-01-30 07:15:00,45,Male,Cardiology,Transfer,Urgent,12,2,0,23,101,13,62,2,61.58,13,Low,87.18,25.63,51.59,Normal,7,Friday,0
+P002814,2026-01-29 18:37:00,77,Female,Emergency,Ambulance,Non-Urgent,44,4,1,1,81,20,47,5,100.0,6,Medium,100.0,67.08,73.49,Warning,18,Thursday,0
+P002815,2026-01-30 15:13:00,49,Female,Neurology,Walk-in,Semi-Urgent,24,3,0,26,135,28,75,3,88.16,14,Medium,89.87,39.32,58.08,Warning,15,Friday,0
+P002816,2026-02-14 18:09:00,68,Male,Cardiology,Walk-in,Non-Urgent,49,3,1,7,116,5,88,3,72.01,0,High,100.0,55.28,84.01,Critical,18,Saturday,1
+P002817,2026-01-28 14:47:00,55,Male,General Medicine,Transfer,Non-Urgent,26,4,0,23,171,21,72,0,45.6,9,Low,55.39,19.72,34.08,Normal,14,Wednesday,0
+P002818,2026-02-02 13:23:00,34,Male,ICU,Walk-in,Non-Urgent,40,3,0,13,78,24,88,4,67.77,6,Medium,100.0,54.54,68.73,Warning,13,Monday,0
+P002819,2026-01-28 23:24:00,62,Male,Cardiology,Walk-in,Critical,40,1,0,26,227,30,77,1,78.14,10,Low,54.6,47.53,44.27,Normal,23,Wednesday,0
+P002820,2026-01-23 02:42:00,87,Female,Emergency,Ambulance,Semi-Urgent,12,3,0,26,168,34,55,6,60.52,13,Low,75.69,38.17,50.84,Normal,2,Friday,0
+P002821,2026-02-13 22:32:00,53,Male,ICU,Walk-in,Semi-Urgent,38,2,1,36,148,14,31,3,51.81,16,Low,62.37,46.71,47.69,Normal,22,Friday,0
+P002822,2026-02-06 13:12:00,57,Male,Neurology,Transfer,Critical,54,1,1,13,97,26,74,2,84.05,4,Medium,100.0,56.69,69.54,Warning,13,Friday,0
+P002823,2026-01-31 04:27:00,51,Male,Cardiology,Walk-in,Semi-Urgent,38,2,0,26,115,27,53,5,45.98,6,Low,81.49,39.66,54.19,Normal,4,Saturday,1
+P002824,2026-01-26 23:43:00,56,Male,ICU,Transfer,Semi-Urgent,57,2,1,15,115,14,48,3,60.54,18,Medium,91.29,54.98,64.71,Warning,23,Monday,0
+P002825,2026-01-21 23:11:00,1,Female,Emergency,Ambulance,Urgent,55,2,1,25,73,17,64,6,85.47,4,Medium,100.0,70.17,74.66,Warning,23,Wednesday,0
+P002826,2026-02-07 14:58:00,63,Male,Emergency,Walk-in,Critical,6,1,1,20,100,19,43,5,69.89,9,Medium,100.0,35.39,61.45,Warning,14,Saturday,1
+P002827,2026-01-22 10:08:00,46,Male,General Medicine,Ambulance,Non-Urgent,37,4,0,19,163,14,44,8,91.83,11,High,100.0,72.4,75.51,Critical,10,Thursday,0
+P002828,2026-01-17 00:54:00,63,Female,Orthopedics,Ambulance,Semi-Urgent,13,3,1,17,167,24,62,1,63.76,17,Low,71.68,23.3,43.26,Normal,0,Saturday,1
+P002829,2026-01-20 04:46:00,36,Female,Emergency,Ambulance,Urgent,44,2,0,25,91,26,64,13,84.52,0,High,100.0,76.81,77.19,Critical,4,Tuesday,0
+P002830,2026-01-30 13:15:00,26,Female,General Medicine,Walk-in,Semi-Urgent,35,3,1,2,85,23,54,4,99.63,15,Medium,100.0,60.91,71.15,Warning,13,Friday,0
+P002831,2026-01-19 20:43:00,13,Male,Cardiology,Walk-in,Urgent,42,2,0,28,77,26,39,3,74.54,10,Medium,98.48,53.67,67.67,Warning,20,Monday,0
+P002832,2026-02-15 00:07:00,59,Male,Pediatrics,Walk-in,Urgent,42,2,1,21,156,38,58,2,65.31,7,Low,74.96,36.17,49.73,Normal,0,Sunday,1
+P002833,2026-02-06 16:53:00,62,Male,Orthopedics,Walk-in,Non-Urgent,14,4,0,8,78,35,53,4,90.32,7,Medium,100.0,39.86,63.15,Warning,16,Friday,0
+P002834,2026-02-16 06:24:00,40,Male,Orthopedics,Walk-in,Semi-Urgent,30,3,0,7,162,33,74,0,43.26,14,Low,68.86,20.41,40.81,Normal,6,Monday,0
+P002835,2026-01-25 11:31:00,38,Female,Emergency,Walk-in,Urgent,36,2,1,16,84,24,68,2,76.78,18,Medium,100.0,49.12,66.67,Warning,11,Sunday,1
+P002836,2026-01-18 18:41:00,38,Female,Neurology,Ambulance,Non-Urgent,34,4,0,13,190,25,57,8,65.41,14,Medium,86.48,64.83,66.15,Warning,18,Sunday,1
+P002837,2026-02-13 12:01:00,43,Male,Neurology,Walk-in,Semi-Urgent,18,3,0,8,152,15,31,4,78.97,10,Medium,96.98,50.3,65.66,Warning,12,Friday,0
+P002838,2026-02-14 10:11:00,43,Male,Pediatrics,Walk-in,Critical,25,1,1,1,78,18,58,5,92.58,7,Medium,100.0,59.14,70.47,Warning,10,Saturday,1
+P002839,2026-01-18 15:17:00,14,Female,General Medicine,Walk-in,Semi-Urgent,45,3,0,24,176,19,73,5,79.0,12,Medium,80.77,50.15,57.83,Warning,15,Sunday,1
+P002840,2026-02-03 18:57:00,52,Female,General Medicine,Transfer,Semi-Urgent,49,3,1,14,127,28,63,5,80.19,5,Medium,100.0,63.73,72.22,Warning,18,Tuesday,0
+P002841,2026-02-08 09:46:00,95,Female,Cardiology,Walk-in,Semi-Urgent,62,2,1,19,178,24,71,5,83.99,16,Medium,86.21,68.84,67.54,Warning,9,Sunday,1
+P002842,2026-02-01 14:19:00,66,Male,Pediatrics,Walk-in,Non-Urgent,31,4,0,32,131,42,78,3,93.42,6,Medium,88.86,42.88,58.95,Warning,14,Sunday,1
+P002843,2026-02-03 19:07:00,11,Male,ICU,Walk-in,Non-Urgent,27,3,1,0,170,27,85,5,81.04,7,Medium,100.0,56.9,69.62,Warning,19,Tuesday,0
+P002844,2026-01-17 10:37:00,35,Female,ICU,Walk-in,Semi-Urgent,67,2,0,2,82,15,63,5,88.36,13,High,100.0,71.53,75.18,Critical,10,Saturday,1
+P002845,2026-01-27 04:01:00,70,Male,Emergency,Ambulance,Non-Urgent,22,4,1,10,260,32,59,3,75.75,7,Low,61.29,35.58,42.94,Normal,4,Tuesday,0
+P002846,2026-02-16 22:53:00,66,Female,ICU,Walk-in,Urgent,36,2,1,18,61,17,24,2,58.47,7,Medium,100.0,44.54,64.93,Warning,22,Monday,0
+P002847,2026-02-02 19:11:00,52,Male,Emergency,Walk-in,Urgent,68,2,0,24,127,16,54,5,78.91,3,Medium,94.45,69.49,71.74,Warning,19,Monday,0
+P002848,2026-01-23 17:44:00,84,Male,Emergency,Walk-in,Critical,20,1,1,15,174,20,56,1,54.09,8,Low,66.87,23.12,40.88,Normal,17,Friday,0
+P002849,2026-02-03 21:37:00,1,Male,Pediatrics,Transfer,Non-Urgent,46,4,1,10,162,19,53,4,92.68,10,Medium,98.85,62.69,71.27,Warning,21,Tuesday,0
+P002850,2026-01-17 00:08:00,24,Male,Pediatrics,Walk-in,Non-Urgent,32,4,0,18,207,40,38,1,66.14,9,Low,60.8,29.98,40.58,Normal,0,Saturday,1
+P002851,2026-01-17 06:35:00,47,Male,General Medicine,Walk-in,Urgent,27,2,0,24,185,28,64,1,53.21,10,Low,56.64,25.14,36.74,Normal,6,Saturday,1
+P002852,2026-02-05 08:39:00,67,Female,Emergency,Transfer,Urgent,48,2,0,10,160,33,53,1,52.38,9,Low,73.77,31.66,47.44,Normal,8,Thursday,0
+P002853,2026-01-27 10:20:00,72,Female,General Medicine,Walk-in,Non-Urgent,41,4,0,25,79,16,38,4,55.05,0,Medium,93.9,51.68,64.71,Warning,10,Tuesday,0
+P002854,2026-02-13 00:33:00,10,Female,Orthopedics,Walk-in,Semi-Urgent,44,3,0,32,141,13,82,1,55.46,14,Low,63.98,31.15,42.55,Normal,0,Friday,0
+P002855,2026-01-26 17:44:00,43,Male,ICU,Walk-in,Non-Urgent,51,3,0,22,76,19,54,4,59.18,7,Medium,98.85,43.91,64.13,Warning,17,Monday,0
+P002856,2026-02-11 03:42:00,36,Male,General Medicine,Walk-in,Urgent,18,2,0,28,106,27,53,2,82.81,7,Medium,91.58,32.86,56.45,Warning,3,Wednesday,0
+P002857,2026-01-24 23:38:00,1,Female,General Medicine,Transfer,Semi-Urgent,55,3,1,33,94,17,64,2,71.68,6,Medium,86.19,53.92,61.86,Warning,23,Saturday,1
+P002858,2026-01-20 12:11:00,50,Male,Orthopedics,Ambulance,Urgent,48,2,0,17,114,28,67,7,97.88,3,High,100.0,74.23,76.21,Critical,12,Tuesday,0
+P002859,2026-01-22 14:57:00,81,Male,Cardiology,Transfer,Critical,16,1,0,2,63,26,29,4,64.88,11,Medium,100.0,34.14,60.97,Warning,14,Thursday,0
+P002860,2026-01-19 00:40:00,86,Female,General Medicine,Walk-in,Urgent,27,2,0,21,104,18,72,1,73.87,12,Medium,90.87,30.31,55.14,Warning,0,Monday,0
+P002861,2026-02-08 20:34:00,94,Female,Pediatrics,Walk-in,Semi-Urgent,55,3,1,9,111,8,22,11,85.31,10,High,100.0,86.13,95.73,Critical,20,Sunday,1
+P002862,2026-01-23 14:46:00,47,Female,ICU,Walk-in,Critical,7,1,0,40,130,30,56,4,68.77,19,Low,74.55,32.23,48.03,Normal,14,Friday,0
+P002863,2026-02-03 23:50:00,1,Female,Cardiology,Transfer,Urgent,59,2,1,18,68,11,64,6,85.36,6,High,100.0,71.42,75.14,Critical,23,Tuesday,0
+P002864,2026-02-03 14:13:00,94,Male,Emergency,Walk-in,Non-Urgent,23,4,0,28,164,25,51,1,71.65,10,Low,67.82,28.47,43.37,Normal,14,Tuesday,0
+P002865,2026-02-01 03:30:00,80,Female,Pediatrics,Ambulance,Non-Urgent,38,4,1,30,204,34,69,4,71.23,18,Low,62.43,42.77,46.22,Normal,3,Sunday,1
+P002866,2026-02-05 07:00:00,81,Female,Emergency,Transfer,Semi-Urgent,12,3,0,33,156,22,37,1,67.53,14,Low,64.46,23.92,40.03,Normal,7,Thursday,0
+P002867,2026-01-27 11:38:00,58,Male,General Medicine,Ambulance,Semi-Urgent,2,3,0,11,60,31,29,6,89.95,12,Medium,100.0,54.33,68.65,Warning,11,Tuesday,0
+P002868,2026-01-22 06:48:00,12,Female,Pediatrics,Walk-in,Critical,13,1,0,17,122,24,51,4,62.43,6,Medium,91.18,32.57,56.14,Warning,6,Thursday,0
+P002869,2026-02-03 00:50:00,25,Male,Neurology,Ambulance,Urgent,46,2,0,10,198,25,59,3,58.0,15,Low,70.66,38.82,48.67,Normal,0,Tuesday,0
+P002870,2026-01-18 19:47:00,40,Male,Emergency,Walk-in,Non-Urgent,63,4,0,8,211,28,48,6,98.56,16,Medium,94.27,76.0,74.13,Warning,19,Sunday,1
+P002871,2026-02-15 10:15:00,40,Female,Orthopedics,Ambulance,Critical,46,1,0,16,89,20,49,3,63.77,23,Medium,99.28,52.26,67.51,Warning,10,Sunday,1
+P002872,2026-02-04 08:45:00,75,Male,Pediatrics,Ambulance,Semi-Urgent,26,3,0,35,128,25,95,5,79.54,14,Medium,86.2,44.2,58.17,Warning,8,Wednesday,0
+P002873,2026-01-21 00:38:00,12,Male,Neurology,Transfer,Urgent,29,2,0,26,172,21,61,3,59.17,4,Low,66.47,33.67,44.7,Normal,0,Wednesday,0
+P002874,2026-01-23 22:51:00,69,Male,Emergency,Ambulance,Semi-Urgent,40,3,0,24,138,32,57,9,88.77,7,High,100.0,75.79,76.8,Critical,22,Friday,0
+P002875,2026-02-08 04:11:00,1,Male,Emergency,Walk-in,Urgent,24,2,0,18,168,26,56,5,93.24,0,Medium,93.92,46.99,62.94,Warning,4,Sunday,1
+P002876,2026-02-02 01:13:00,1,Male,Cardiology,Transfer,Semi-Urgent,35,2,1,4,101,3,61,0,85.12,10,High,100.0,32.48,75.34,Critical,1,Monday,0
+P002877,2026-02-07 18:39:00,80,Female,Orthopedics,Walk-in,Non-Urgent,56,4,1,0,115,11,60,5,97.28,10,Medium,100.0,70.24,74.69,Warning,18,Saturday,1
+P002878,2026-01-31 14:08:00,14,Male,ICU,Transfer,Critical,21,1,1,31,100,29,73,3,81.04,1,Medium,92.72,36.58,58.41,Warning,14,Saturday,1
+P002879,2026-02-10 13:04:00,45,Male,Pediatrics,Ambulance,Non-Urgent,48,4,1,29,72,14,66,9,81.52,8,High,100.0,76.54,77.09,Critical,13,Tuesday,0
+P002880,2026-02-01 00:27:00,1,Male,ICU,Walk-in,Non-Urgent,28,3,1,29,219,22,79,2,73.02,15,Low,54.79,33.62,39.07,Normal,0,Sunday,1
+P002881,2026-01-20 19:38:00,87,Female,Orthopedics,Walk-in,Non-Urgent,42,4,0,13,142,14,35,5,100.0,5,Medium,100.0,66.44,73.25,Warning,19,Tuesday,0
+P002882,2026-01-19 03:30:00,49,Male,ICU,Walk-in,Semi-Urgent,17,2,0,30,105,21,69,1,72.78,16,Low,83.35,26.84,50.21,Normal,3,Monday,0
+P002883,2026-02-16 01:49:00,39,Female,Cardiology,Walk-in,Critical,40,1,1,9,199,10,52,1,31.54,3,Low,54.22,23.88,35.1,Normal,1,Monday,0
+P002884,2026-02-17 01:14:00,12,Male,Cardiology,Transfer,Urgent,6,2,0,23,155,17,48,4,73.23,4,Low,82.3,33.03,52.06,Normal,1,Tuesday,0
+P002885,2026-01-29 07:12:00,15,Female,Pediatrics,Transfer,Critical,12,1,0,32,197,21,34,0,35.04,20,Low,36.61,12.6,22.36,Normal,7,Thursday,0
+P002886,2026-01-28 15:12:00,22,Female,Emergency,Walk-in,Non-Urgent,2,4,0,24,128,26,70,1,41.12,18,Low,67.16,14.12,37.6,Normal,15,Wednesday,0
+P002887,2026-02-07 01:40:00,50,Male,Cardiology,Walk-in,Non-Urgent,41,3,0,21,191,18,34,4,58.73,13,Low,67.2,40.6,47.68,Normal,1,Saturday,1
+P002888,2026-02-09 01:08:00,34,Male,Neurology,Walk-in,Urgent,30,2,0,2,80,17,37,1,64.45,21,Medium,100.0,28.91,58.99,Warning,1,Monday,0
+P002889,2026-01-31 14:24:00,16,Male,Emergency,Walk-in,Urgent,11,2,0,16,221,22,82,1,88.35,9,Low,68.38,28.81,43.77,Normal,14,Saturday,1
+P002890,2026-01-19 21:20:00,35,Female,General Medicine,Walk-in,Non-Urgent,32,4,0,15,31,31,15,6,77.23,0,Medium,100.0,60.75,71.09,Warning,21,Monday,0
+P002891,2026-02-16 06:24:00,31,Male,Neurology,Walk-in,Semi-Urgent,25,3,1,13,165,39,95,4,82.16,17,Medium,91.02,41.34,59.4,Warning,6,Monday,0
+P002892,2026-02-03 04:59:00,51,Female,Cardiology,Transfer,Non-Urgent,2,3,0,25,138,20,60,2,57.18,11,Low,73.34,21.34,43.31,Normal,4,Tuesday,0
+P002893,2026-01-21 19:21:00,31,Female,Emergency,Walk-in,Non-Urgent,46,4,1,31,126,19,27,5,88.37,4,Medium,93.74,64.81,69.62,Warning,19,Wednesday,0
+P002894,2026-01-25 13:08:00,1,Female,Emergency,Walk-in,Urgent,28,2,1,8,140,31,43,5,89.49,12,Medium,100.0,59.33,70.55,Warning,13,Sunday,1
+P002895,2026-02-16 12:52:00,48,Male,General Medicine,Walk-in,Urgent,51,2,1,16,149,16,26,1,69.22,15,Medium,79.93,48.83,56.92,Warning,12,Monday,0
+P002896,2026-01-24 07:37:00,1,Male,Emergency,Walk-in,Non-Urgent,10,4,0,26,105,18,81,2,80.33,7,Medium,92.25,29.68,55.56,Warning,7,Saturday,1
+P002897,2026-01-19 14:01:00,45,Male,Pediatrics,Walk-in,Semi-Urgent,2,3,0,23,77,36,29,3,43.97,12,Low,88.48,21.23,50.54,Normal,14,Monday,0
+P002898,2026-01-29 03:05:00,31,Female,Pediatrics,Walk-in,Semi-Urgent,29,3,0,23,196,28,92,3,80.76,10,Low,71.71,39.07,49.27,Normal,3,Thursday,0
+P002899,2026-02-02 04:19:00,37,Female,Orthopedics,Walk-in,Semi-Urgent,24,3,0,21,243,16,47,1,59.78,11,Low,45.61,25.82,31.7,Normal,4,Monday,0
+P002900,2026-02-09 08:29:00,32,Male,General Medicine,Transfer,Urgent,2,2,1,28,91,20,39,3,66.41,6,Low,90.9,26.84,53.83,Normal,8,Monday,0
+P002901,2026-01-31 04:17:00,34,Female,Neurology,Transfer,Urgent,49,2,1,2,187,22,38,3,82.28,10,Medium,90.67,45.85,60.94,Warning,4,Saturday,1
+P002902,2026-02-17 03:12:00,32,Female,Emergency,Walk-in,Urgent,20,2,1,17,130,15,41,3,63.43,17,Low,86.89,31.86,53.81,Normal,3,Tuesday,0
+P002903,2026-01-26 07:54:00,81,Female,Emergency,Ambulance,Critical,6,1,1,30,199,29,64,1,70.79,8,Low,56.14,22.82,35.62,Normal,7,Monday,0
+P002904,2026-02-02 12:21:00,52,Female,Orthopedics,Walk-in,Urgent,45,2,1,38,35,21,19,6,85.39,5,Medium,100.0,66.95,73.44,Warning,12,Monday,0
+P002905,2026-02-04 17:02:00,16,Male,ICU,Ambulance,Urgent,16,2,0,40,59,24,40,4,53.52,12,Low,87.56,31.3,53.92,Normal,17,Wednesday,0
+P002906,2026-01-17 13:49:00,40,Male,General Medicine,Walk-in,Urgent,28,2,0,11,149,26,84,1,66.65,4,Medium,82.52,40.82,55.12,Warning,13,Saturday,1
+P002907,2026-01-25 17:21:00,64,Female,ICU,Transfer,Urgent,17,2,0,15,84,19,49,1,46.93,12,Low,88.85,20.37,50.39,Normal,17,Sunday,1
+P002908,2026-02-07 03:59:00,62,Male,Neurology,Walk-in,Non-Urgent,35,4,0,18,157,34,45,2,62.07,1,Low,75.47,33.12,48.81,Normal,3,Saturday,1
+P002909,2026-01-26 21:08:00,95,Female,ICU,Walk-in,Semi-Urgent,76,2,1,11,160,17,55,6,96.72,0,High,100.0,79.7,78.29,Critical,21,Monday,0
+P002910,2026-01-24 06:32:00,71,Male,Orthopedics,Walk-in,Non-Urgent,21,4,0,31,192,33,62,1,79.57,9,Low,61.3,29.81,40.75,Normal,6,Saturday,1
+P002911,2026-01-18 03:16:00,75,Female,Pediatrics,Ambulance,Semi-Urgent,13,3,0,0,142,19,72,4,55.25,0,Medium,95.1,30.77,57.34,Warning,3,Sunday,1
+P002912,2026-02-15 22:06:00,52,Male,Emergency,Walk-in,Urgent,52,2,1,21,98,18,84,4,83.94,11,Medium,100.0,62.42,71.72,Warning,22,Sunday,1
+P002913,2026-02-15 19:41:00,54,Female,Neurology,Walk-in,Urgent,44,2,0,0,93,24,50,4,72.02,7,Medium,100.0,56.89,69.62,Warning,19,Sunday,1
+P002914,2026-02-10 02:33:00,95,Female,Emergency,Transfer,Semi-Urgent,11,3,0,41,113,31,47,0,71.06,16,Low,69.59,21.29,41.49,Normal,2,Tuesday,0
+P002915,2026-02-13 12:29:00,57,Male,Pediatrics,Ambulance,Critical,61,1,1,23,149,3,39,5,91.92,9,High,94.89,70.5,87.34,Critical,12,Friday,0
+P002916,2026-02-14 08:42:00,46,Female,General Medicine,Ambulance,Semi-Urgent,16,3,0,35,108,29,53,5,70.02,5,Medium,87.52,38.62,56.69,Warning,8,Saturday,1
+P002917,2026-02-14 13:26:00,43,Female,Orthopedics,Walk-in,Semi-Urgent,21,3,0,0,100,25,39,5,100.0,13,Medium,100.0,59.72,70.69,Warning,13,Saturday,1
+P002918,2026-01-30 04:19:00,37,Male,ICU,Walk-in,Semi-Urgent,36,2,1,43,214,21,75,1,49.17,0,Low,32.46,27.01,25.84,Normal,4,Friday,0
+P002919,2026-02-07 03:30:00,54,Female,Emergency,Ambulance,Semi-Urgent,30,3,0,26,89,31,37,6,71.17,12,Medium,100.0,46.59,65.7,Warning,3,Saturday,1
+P002920,2026-02-16 11:00:00,52,Male,Emergency,Transfer,Urgent,47,2,1,21,110,29,51,9,88.14,0,High,100.0,77.88,77.59,Critical,11,Monday,0
+P002921,2026-01-18 09:39:00,14,Male,General Medicine,Walk-in,Semi-Urgent,45,3,0,0,147,20,38,5,75.2,13,Medium,100.0,61.2,71.26,Warning,9,Sunday,1
+P002922,2026-01-27 06:18:00,1,Male,ICU,Ambulance,Non-Urgent,19,3,1,18,97,20,26,3,74.14,13,Medium,100.0,34.22,61.0,Warning,6,Tuesday,0
+P002923,2026-02-05 20:24:00,35,Male,Emergency,Walk-in,Non-Urgent,47,4,0,1,144,11,48,7,90.45,10,High,100.0,72.05,75.38,Critical,20,Thursday,0
+P002924,2026-02-11 00:30:00,59,Male,Cardiology,Ambulance,Critical,2,1,0,13,241,21,64,1,53.82,11,Low,49.49,17.3,30.33,Normal,0,Wednesday,0
+P002925,2026-01-23 16:36:00,69,Female,Emergency,Ambulance,Urgent,6,2,1,12,81,25,54,4,83.47,0,Medium,100.0,35.59,61.52,Warning,16,Friday,0
+P002926,2026-01-22 23:17:00,85,Female,Pediatrics,Walk-in,Urgent,35,2,0,0,130,32,42,5,76.32,13,Medium,100.0,58.28,70.15,Warning,23,Thursday,0
+P002927,2026-02-11 17:56:00,58,Male,ICU,Ambulance,Non-Urgent,6,3,0,35,124,26,62,5,66.15,8,Low,81.3,34.46,52.12,Normal,17,Wednesday,0
+P002928,2026-02-15 20:11:00,32,Male,Emergency,Walk-in,Semi-Urgent,25,3,0,0,149,28,66,2,68.92,7,Medium,94.29,43.63,61.84,Warning,20,Sunday,1
+P002929,2026-02-09 00:25:00,36,Female,Emergency,Walk-in,Semi-Urgent,37,3,1,12,147,32,49,2,46.68,3,Low,75.85,29.91,47.77,Normal,0,Monday,0
+P002930,2026-02-14 00:40:00,66,Female,Pediatrics,Ambulance,Non-Urgent,32,4,0,28,84,14,30,5,81.55,3,Medium,100.0,46.63,65.72,Warning,0,Saturday,1
+P002931,2026-01-24 14:51:00,34,Female,Emergency,Walk-in,Semi-Urgent,10,3,0,31,156,28,54,2,75.77,11,Low,72.17,28.54,45.49,Normal,14,Saturday,1
+P002932,2026-01-30 05:10:00,28,Female,General Medicine,Walk-in,Semi-Urgent,2,3,0,16,155,19,55,1,60.29,23,Low,74.23,18.91,42.82,Normal,5,Friday,0
+P002933,2026-02-06 01:37:00,63,Male,Orthopedics,Walk-in,Semi-Urgent,21,3,1,12,159,22,60,4,59.16,20,Low,83.1,34.31,52.93,Normal,1,Friday,0
+P002934,2026-01-29 17:09:00,44,Male,Emergency,Walk-in,Urgent,2,2,1,28,134,25,44,2,56.93,0,Low,72.1,21.27,42.69,Normal,17,Thursday,0
+P002935,2026-02-15 09:50:00,44,Female,Neurology,Walk-in,Non-Urgent,11,4,0,37,124,23,41,3,60.7,13,Low,72.34,40.3,50.04,Normal,9,Sunday,1
+P002936,2026-02-08 00:45:00,53,Female,Orthopedics,Walk-in,Semi-Urgent,35,3,0,13,124,44,55,3,64.74,9,Medium,92.16,36.98,58.29,Warning,0,Sunday,1
+P002937,2026-02-11 17:38:00,28,Male,Cardiology,Walk-in,Semi-Urgent,13,2,1,34,167,35,51,1,55.93,14,Low,55.41,21.34,34.71,Normal,17,Wednesday,0
+P002938,2026-02-18 06:53:00,60,Male,General Medicine,Transfer,Non-Urgent,25,4,0,5,171,24,59,1,68.89,5,Low,81.87,28.42,50.1,Normal,6,Wednesday,0
+P002939,2026-02-16 08:14:00,69,Male,Cardiology,Ambulance,Semi-Urgent,16,2,1,14,89,31,57,7,66.94,9,Medium,100.0,44.26,64.82,Warning,8,Monday,0
+P002940,2026-01-28 15:07:00,12,Male,General Medicine,Ambulance,Semi-Urgent,22,3,0,28,166,29,48,7,75.91,4,Medium,84.18,48.42,58.81,Warning,15,Wednesday,0
+P002941,2026-01-23 04:03:00,37,Female,General Medicine,Walk-in,Urgent,47,2,0,25,133,19,64,5,71.44,6,Medium,88.66,48.9,61.14,Warning,4,Friday,0
+P002942,2026-01-24 05:39:00,36,Female,Pediatrics,Transfer,Urgent,12,2,0,17,176,21,61,3,48.98,0,Low,67.51,25.69,42.17,Normal,5,Saturday,1
+P002943,2026-02-14 14:29:00,45,Female,Emergency,Ambulance,Critical,38,1,1,45,93,39,48,9,96.54,7,Medium,100.0,65.09,72.73,Warning,14,Saturday,1
+P002944,2026-02-08 16:56:00,19,Female,Cardiology,Walk-in,Urgent,13,2,0,2,142,22,23,1,52.7,11,Low,84.95,20.54,48.58,Normal,16,Sunday,1
+P002945,2026-01-24 20:24:00,35,Male,Neurology,Walk-in,Urgent,38,2,0,13,114,7,46,2,55.86,15,Medium,88.47,44.53,74.39,Warning,20,Saturday,1
+P002946,2026-01-17 19:18:00,95,Male,Pediatrics,Walk-in,Urgent,47,2,1,27,84,16,47,5,82.0,9,Medium,100.0,63.54,72.15,Warning,19,Saturday,1
+P002947,2026-02-03 00:26:00,4,Female,ICU,Walk-in,Semi-Urgent,36,2,0,51,173,24,68,2,84.3,0,Low,56.24,39.0,41.82,Normal,0,Tuesday,0
+P002948,2026-01-30 00:22:00,78,Female,ICU,Walk-in,Semi-Urgent,2,2,0,31,136,25,23,0,69.88,2,Low,70.12,18.11,40.54,Normal,0,Friday,0
+P002949,2026-02-05 00:07:00,19,Female,Orthopedics,Transfer,Semi-Urgent,14,3,0,23,202,25,64,1,44.93,11,Low,48.91,18.91,30.66,Normal,0,Thursday,0
+P002950,2026-02-18 09:47:00,24,Female,Emergency,Walk-in,Non-Urgent,24,4,0,15,155,24,44,5,66.48,15,Medium,87.77,52.3,62.0,Warning,9,Wednesday,0
+P002951,2026-01-31 10:14:00,59,Male,Emergency,Transfer,Critical,53,1,1,0,134,12,61,2,67.29,5,Medium,97.76,52.18,66.75,Warning,10,Saturday,1
+P002952,2026-02-05 18:29:00,75,Male,Cardiology,Walk-in,Non-Urgent,44,3,1,26,85,32,32,3,67.88,16,Medium,94.75,52.65,65.49,Warning,18,Thursday,0
+P002953,2026-02-13 00:10:00,19,Male,Emergency,Walk-in,Non-Urgent,27,4,0,24,74,24,59,1,62.83,20,Low,92.05,27.55,54.65,Normal,0,Friday,0
+P002954,2026-02-06 20:07:00,15,Female,Pediatrics,Walk-in,Semi-Urgent,24,3,1,19,137,12,25,3,72.06,13,Medium,87.32,47.3,59.89,Warning,20,Friday,0
+P002955,2026-01-19 19:36:00,41,Female,Emergency,Walk-in,Semi-Urgent,43,3,0,9,143,26,62,3,73.71,12,Medium,93.88,53.79,65.5,Warning,19,Monday,0
+P002956,2026-02-01 14:39:00,1,Female,Neurology,Walk-in,Critical,37,1,0,7,163,31,68,1,63.42,13,Low,80.15,30.89,50.21,Normal,14,Sunday,1
+P002957,2026-01-24 12:05:00,53,Male,Emergency,Walk-in,Semi-Urgent,62,3,1,14,113,9,92,6,92.18,12,High,100.0,74.09,91.15,Critical,12,Saturday,1
+P002958,2026-01-21 18:14:00,27,Female,Pediatrics,Ambulance,Critical,47,1,0,13,228,15,60,6,81.15,0,Medium,77.93,66.53,62.69,Warning,18,Wednesday,0
+P002959,2026-02-07 18:07:00,46,Female,Cardiology,Walk-in,Semi-Urgent,68,2,1,9,65,11,39,5,100.0,6,High,100.0,74.76,76.41,Critical,18,Saturday,1
+P002960,2026-01-24 02:43:00,26,Male,Neurology,Ambulance,Urgent,30,2,1,11,110,38,57,3,64.41,10,Medium,97.43,35.3,60.18,Warning,2,Saturday,1
+P002961,2026-02-17 19:32:00,44,Male,Pediatrics,Ambulance,Semi-Urgent,56,3,1,16,93,16,39,8,71.23,6,High,100.0,73.33,75.87,Critical,19,Tuesday,0
+P002962,2026-01-22 05:04:00,18,Female,Emergency,Walk-in,Urgent,2,2,1,14,107,24,36,1,59.21,7,Low,88.68,18.64,49.65,Normal,5,Thursday,0
+P002963,2026-02-02 11:02:00,53,Female,ICU,Transfer,Semi-Urgent,55,2,1,9,173,4,51,4,73.6,12,High,87.93,60.8,80.31,Critical,11,Monday,0
+P002964,2026-02-02 06:16:00,58,Female,Pediatrics,Walk-in,Semi-Urgent,34,3,0,29,160,28,32,2,50.78,10,Low,61.3,29.98,40.82,Normal,6,Monday,0
+P002965,2026-01-27 13:11:00,89,Female,Neurology,Ambulance,Semi-Urgent,62,3,1,3,62,26,47,10,85.34,12,High,100.0,85.18,80.37,Critical,13,Tuesday,0
+P002966,2026-02-06 00:15:00,50,Female,General Medicine,Transfer,Critical,2,1,0,22,42,28,53,2,54.22,7,Medium,100.0,20.59,55.82,Warning,0,Friday,0
+P002967,2026-02-15 19:48:00,24,Male,Cardiology,Transfer,Urgent,26,2,1,33,61,27,70,3,88.44,5,Medium,100.0,52.03,67.77,Warning,19,Sunday,1
+P002968,2026-01-30 21:23:00,83,Female,ICU,Ambulance,Semi-Urgent,66,2,1,0,53,14,57,7,96.06,9,High,100.0,79.53,78.22,Critical,21,Friday,0
+P002969,2026-02-18 15:27:00,4,Male,Neurology,Walk-in,Non-Urgent,30,4,0,17,189,29,33,3,79.94,6,Low,77.8,39.19,52.24,Normal,15,Wednesday,0
+P002970,2026-02-15 14:45:00,5,Female,Neurology,Walk-in,Semi-Urgent,2,3,0,44,120,23,57,1,78.14,11,Low,71.06,23.38,42.99,Normal,14,Sunday,1
+P002971,2026-01-24 07:03:00,14,Female,Pediatrics,Walk-in,Semi-Urgent,28,3,0,55,216,14,42,2,62.64,9,Low,31.46,31.02,26.89,Normal,7,Saturday,1
+P002972,2026-01-21 03:22:00,20,Male,Cardiology,Walk-in,Semi-Urgent,42,2,1,16,260,32,33,3,53.8,3,Low,46.91,36.49,36.38,Normal,3,Wednesday,0
+P002973,2026-02-19 02:51:00,18,Female,Orthopedics,Walk-in,Non-Urgent,44,4,0,30,124,23,32,3,90.2,11,Medium,90.87,46.23,61.19,Warning,2,Thursday,0
+P002974,2026-02-06 17:22:00,95,Female,ICU,Walk-in,Semi-Urgent,7,2,0,27,149,42,53,0,61.23,13,Low,65.58,17.55,38.15,Normal,17,Friday,0
+P002975,2026-02-11 10:16:00,62,Female,General Medicine,Transfer,Urgent,23,2,1,18,142,30,62,4,80.01,11,Medium,92.74,52.16,64.34,Warning,10,Wednesday,0
+P002976,2026-02-12 11:52:00,74,Male,Orthopedics,Walk-in,Urgent,43,2,0,15,85,14,32,3,71.89,14,Medium,100.0,53.33,68.27,Warning,11,Thursday,0
+P002977,2026-02-11 10:21:00,59,Female,Emergency,Ambulance,Non-Urgent,40,4,1,19,171,29,26,7,90.38,0,Medium,96.04,69.8,72.62,Warning,10,Wednesday,0
+P002978,2026-01-26 23:15:00,27,Male,Neurology,Walk-in,Semi-Urgent,28,3,1,24,46,30,46,3,75.33,15,Medium,100.0,49.39,66.77,Warning,23,Monday,0
+P002979,2026-01-22 09:05:00,79,Female,Emergency,Walk-in,Semi-Urgent,42,3,0,19,144,7,52,2,77.31,5,High,85.22,51.17,75.35,Critical,9,Thursday,0
+P002980,2026-02-10 11:59:00,1,Female,Emergency,Walk-in,Non-Urgent,43,4,0,13,121,16,61,3,49.1,16,Medium,85.97,47.63,59.37,Warning,11,Tuesday,0
+P002981,2026-01-20 20:36:00,75,Female,Emergency,Transfer,Non-Urgent,44,4,0,0,147,16,59,3,87.76,13,Medium,100.0,57.62,69.9,Warning,20,Tuesday,0
+P002982,2026-01-21 20:05:00,46,Female,Pediatrics,Walk-in,Semi-Urgent,41,3,1,10,104,15,57,3,79.94,9,Medium,100.0,54.7,68.79,Warning,20,Wednesday,0
+P002983,2026-01-27 13:14:00,53,Female,Orthopedics,Walk-in,Urgent,53,2,0,29,115,17,33,3,81.47,13,Medium,90.21,58.93,65.69,Warning,13,Tuesday,0
+P002984,2026-01-29 20:29:00,20,Male,Cardiology,Walk-in,Non-Urgent,61,3,1,15,157,14,37,7,96.54,1,High,100.0,78.06,77.66,Critical,20,Thursday,0
+P002985,2026-01-17 21:57:00,32,Male,ICU,Walk-in,Non-Urgent,30,3,0,23,144,14,60,2,54.93,19,Low,72.15,41.73,50.49,Normal,21,Saturday,1
+P002986,2026-01-22 12:06:00,1,Female,Neurology,Walk-in,Non-Urgent,23,4,0,16,75,25,52,4,58.32,14,Medium,100.0,46.74,65.76,Warning,12,Thursday,0
+P002987,2026-01-21 03:02:00,62,Female,Orthopedics,Walk-in,Non-Urgent,22,4,0,26,165,19,77,1,77.18,19,Low,71.53,29.54,45.56,Normal,3,Wednesday,0
+P002988,2026-02-15 06:43:00,34,Female,Cardiology,Walk-in,Urgent,40,2,0,19,162,35,58,3,48.76,8,Low,69.83,34.59,46.66,Normal,6,Sunday,1
+P002989,2026-02-18 14:23:00,6,Male,Neurology,Walk-in,Non-Urgent,11,4,0,33,168,38,63,1,57.59,4,Low,56.63,21.12,35.21,Normal,14,Wednesday,0
+P002990,2026-02-17 23:16:00,12,Female,Emergency,Walk-in,Urgent,53,2,1,12,175,14,9,5,95.02,3,Medium,97.26,68.72,72.8,Warning,23,Tuesday,0
+P002991,2026-01-30 18:50:00,54,Male,Emergency,Walk-in,Non-Urgent,64,4,0,0,96,32,72,4,66.95,17,Medium,100.0,62.02,71.57,Warning,18,Friday,0
+P002992,2026-02-16 00:41:00,51,Male,ICU,Walk-in,Non-Urgent,14,3,1,13,156,8,48,1,64.46,13,Medium,78.08,23.79,61.52,Warning,0,Monday,0
+P002993,2026-01-18 17:39:00,45,Male,Emergency,Walk-in,Urgent,22,2,1,13,140,23,63,0,46.1,5,Low,71.8,18.57,41.52,Normal,17,Sunday,1
+P002994,2026-02-08 10:39:00,31,Female,Emergency,Walk-in,Semi-Urgent,57,3,1,11,134,8,53,5,73.08,4,High,99.62,64.51,87.33,Critical,10,Sunday,1
+P002995,2026-02-12 15:05:00,83,Female,Neurology,Walk-in,Semi-Urgent,37,3,0,41,189,24,37,2,39.3,16,Low,39.02,28.07,29.4,Normal,15,Thursday,0
+P002996,2026-02-10 06:59:00,43,Male,General Medicine,Walk-in,Urgent,5,2,0,19,205,36,44,2,53.32,4,Low,57.34,21.33,35.63,Normal,6,Tuesday,0
+P002997,2026-01-22 17:41:00,65,Female,Orthopedics,Walk-in,Semi-Urgent,37,3,0,43,133,22,25,2,70.53,10,Low,67.25,35.87,45.91,Normal,17,Thursday,0
+P002998,2026-01-19 19:04:00,62,Male,Emergency,Transfer,Urgent,30,2,0,22,134,24,71,2,86.98,10,Medium,90.12,49.75,62.16,Warning,19,Monday,0
+P002999,2026-01-22 19:46:00,38,Male,Cardiology,Ambulance,Urgent,66,2,1,6,114,20,67,8,88.23,2,High,100.0,80.78,78.7,Critical,19,Thursday,0
+P003000,2026-02-13 19:42:00,20,Female,Neurology,Walk-in,Urgent,30,2,1,2,160,19,47,3,74.27,13,Medium,94.62,49.77,64.33,Warning,19,Friday,0
